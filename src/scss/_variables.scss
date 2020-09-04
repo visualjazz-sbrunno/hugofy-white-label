@@ -1,5 +1,6 @@
-$brand-primary: #F59C00;
-$brand-primary-darker: #EF8F00;
+// Setup colors
+$brand-primary: #F74902;
+$brand-primary-darker: #BF3902;
 $brand-secondary: #6A6D71;
 $brand-secondary-darker: #595B5F;
 $brand-secondary-raspberry: #B60057;
@@ -11,9 +12,10 @@ $grey-light: #999;
 $grey-lighter: #D0D0D0;
 $grey-lightest: #F0F0F0;
 
+// animations
 $transition-fast: 200ms ease-out;
 
-
+// UIKit overrides
 $global-color:                                   #666 !default;
 $global-emphasis-color:                          #333 !default;
 $global-muted-color:                             #999 !default;
