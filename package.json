@@ -90,16 +90,16 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
-    "algoliasearch": "^4.3.1",
+    "algoliasearch": "^4.4.0",
     "atomic-algolia": "^0.3.19",
     "bulma": "^0.9.0",
-    "countup.js": "^2.0.6",
+    "countup.js": "^2.0.7",
     "dotenv-webpack": "^2.0.0",
     "jquery": "^3.5.1",
-    "lazysizes": "^4.1.5",
+    "lazysizes": "^5.2.2",
     "lodash": "^4.17.20",
     "react-fast-compare": "^3.2.0",
-    "uikit": "^3.5.6"
+    "uikit": "^3.5.7"
   },
   "resolutions": {
     "natives": "1.1.6"

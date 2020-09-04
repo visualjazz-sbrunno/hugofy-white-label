@@ -588,6 +588,12 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Image, name: image, widget: image, required: false }
               - { label: Lead Text, name: leadtext, widget: markdown, required: false }
               - { label: Content, name: content, widget: markdown, required: false }
+          - label: "C08: Quote"
+            name: "C08_quote"
+            widget: object
+            fields:
+              - { label: Quote Text, name: quote_text, widget: markdown }
+              - { label: Quote Author, name: quote_author, widget: string, required: false }
           - label: "C04: Spotlight with Image & Content"
             name: "spotlight_image_content"
             widget: object
@@ -719,12 +725,6 @@ collections: # A list of collections the CMS should be able to edit
                 allow_add: true
                 fields:
                   - { label: Our friend, name: friend_text, widget: string }
-          - label: "C15: Quote"
-            name: "quote"
-            widget: object
-            fields:
-              - { label: Quote Text, name: quote_text, widget: markdown }
-              - { label: Quote Author, name: quote_author, widget: string }
           - label: "C16: Contact form"
             name: "contact-form"
             widget: object

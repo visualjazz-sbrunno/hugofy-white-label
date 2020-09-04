@@ -1,0 +1,14 @@
+<div data-id="C03" class="uk-container  uk-container-xsmall C08-quote">
+    <div class="C08-quote__info">
+        {{if .Module.quote_text}}
+        <div uk-grid>
+            <div class="uk-width-1-1 uk-align-center">
+                <p class="uk-text-lead uk-text-center">{{ .Module.quote_text }}</p>
+                {{if .Module.quote_author}}
+                    <p class="uk-text-center C15-quote__author">{{ .Module.quote_author }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
