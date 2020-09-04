@@ -580,6 +580,19 @@ collections: # A list of collections the CMS should be able to edit
         name: "modules"
         widget: "list"
         types:
+          - label: "C01: Accordion"
+            name: "C01_accordion"
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: "string", required: true }
+              - { label: Content, name: content, required: true, widget: markdown }
+              - label: "Accordion Dropdowns"
+                name: "dropdowns"
+                widget: list
+                allow_add: true
+                fields:
+                  - { label: Title, name: title, widget: string, required: true }
+                  - { label: Content, name: content, widget: markdown, required: true }
           - label: "C03: Split Title with Content"
             name: "split_title_content"
             widget: object
