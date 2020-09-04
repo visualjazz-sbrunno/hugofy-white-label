@@ -388,4 +388,8 @@ modules:
       physical health. It’s up to us as employers to create an environment where
       everyone in the workplace feels comfortable”
     quote_author: Melinda Upton, Partner, DLA Piper
+  - type: C01_accordion
+    dropdowns:
+      - title: this is an accordion title
+        content: this is accordion content
 ---
