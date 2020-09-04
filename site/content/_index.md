@@ -137,6 +137,9 @@ modules:
         feat_member_link: /link-to-member
         feat_member_cta: HEAR HER STORY
     feat_member_read_more: /link-to-more-stories
+  - type: "C01_accordion "
+    title: test some thing
+    content: Testing the things i need to for accordion
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
