@@ -38,6 +38,7 @@ modules:
       productivity and compensation claims
     stat_info_3: of employees do not seek help, and less than 3% use an Employee
       Assistance Program
+    background_color: Light
     stat_type_1: m
     stat_type_2: b
     stat_type_3: "%"
