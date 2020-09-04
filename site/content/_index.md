@@ -17,6 +17,16 @@ modules:
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
+  - type: C01_accordion
+    title: An Accordion
+    content: an accordion is this
+    dropdowns:
+      - title: accordion dropdown 1
+        content: accordion content 1
+      - title: accordion 2
+        content: accordion content 2
+      - title: accordion  3
+        content: accordion content 3
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
