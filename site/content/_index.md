@@ -15,7 +15,7 @@ modules:
       is my content this is my content this is my content this is my content
       this is my content this is my content.
   - type: C08_quote
-    quote_text: This is my quote text
+    quote_text: '"This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
 slug: homepage
 banner_cta_link: /about-us
