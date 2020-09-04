@@ -3,6 +3,5 @@
 
   &-top {
     @include componentSpacingCompile();
-    @include svgLine();
   }
 }
