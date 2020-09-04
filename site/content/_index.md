@@ -3,7 +3,7 @@ title: Homepage
 meta_keywords: white-label
 meta_description: This is a detailed description of the page.
 banner_title: Together in the business of improving workplace mental health
-banner_image: img/main-hero.jpg
+banner_image: img/banner-image.jpg
 modules:
   - type: split_title_content
     title: Who we are
