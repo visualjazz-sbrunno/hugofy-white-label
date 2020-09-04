@@ -9,25 +9,39 @@ title = "Hugofy"
 #disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 disableKinds = ["RSS"]
 
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
+[build]
+# Deploy Preview context: all deploys generated from a pull/merge request will
+# inherit these settings.
+[context.deploy-preview]
+publish = "dist/"
+
+# Specific branch context: all deploys from this specific branch will inherit
+# these settings.
+[context.staging] # 'staging' is a branch name
+command = "echo 'staging'"
+base = "staging"
+
 [related]
-  threshold = 0
-  includeNewer = true
-  toLower = false
+threshold = 0
+includeNewer = true
+toLower = false
 
-  [[related.indices]]
-    name = "categories"
-    weight = 100
+[[related.indices]]
+name = "categories"
+weight = 100
 
-  [[related.indices]]
-    name = "date"
-    weight = 10
+[[related.indices]]
+name = "date"
+weight = 10
 
 [taxonomies]
-  category = "category"
-  focus = "focus"
-  role = "role"
-  organisation_size = "organisation_size"
-  industry = "industry"
+category = "category"
+focus = "focus"
+role = "role"
+organisation_size = "organisation_size"
+industry = "industry"
 
 [outputs]
 home = ["HTML", "Algolia", "TaxRelationships"]
@@ -36,23 +50,23 @@ home = ["HTML", "Algolia", "TaxRelationships"]
 pages = "/:slug/"
 
 [menu]
-  [[menu.main]]
-    identifier = "about-us"
-    name = "About us"
-    url = "/about-us/"
-    weight = 1
+[[menu.main]]
+identifier = "about-us"
+name = "About us"
+url = "/about-us/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url = "/resources/"
-    weight = 2
+[[menu.main]]
+identifier = "resources"
+name = "Resources"
+url = "/resources/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "contact-us"
-    name = "Contact Us"
-    url = "/contact-us/"
-    weight = 3
+[[menu.main]]
+identifier = "contact-us"
+name = "Contact Us"
+url = "/contact-us/"
+weight = 3
 
 # Algolia config
 [outputFormats.Algolia]
