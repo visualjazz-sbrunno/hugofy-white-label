@@ -24,9 +24,9 @@ modules:
       - title: This is an accordion title number 2
         content: content for the second accordion
   - type: C09_split_title_image_content
-    title: test 1 24
-    leadtext: test
-    content: test
+    title: Testing content !
+    leadtext: Test test
+    content: test test
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
