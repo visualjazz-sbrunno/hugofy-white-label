@@ -19,10 +19,10 @@ modules:
     quote_author: "Sam Brunno: This is optional."
   - type: C01_accordion
     dropdowns:
-      - title: this is a title for an accordion
-        content: this is content for the first accordion
+      - title: This is a title for an accordion
+        content: This is content for the first accordion
       - title: This is an accordion title number 2
-        content: content for the second accordion
+        content: Content for the second accordion
       - title: Agin another dropdown
         content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
