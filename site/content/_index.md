@@ -17,12 +17,6 @@ modules:
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
-  - type: C01_accordion
-    dropdowns:
-      - title: this is a title for an accordion
-        content: this is content for the first accordion
-      - title: This is an accordion title number 2
-        content: content for the second accordion
   - type: C09_split_title_image_content
     title: Testing content !
     leadtext: Test test
