@@ -1,6 +1,6 @@
 .C01-accordion {
   @include componentSpacingCompile($paddingTop: false);
-  
+
   & .uk-open {
     & .uk-accordion-title {
       background-color: $grey-lightest;
