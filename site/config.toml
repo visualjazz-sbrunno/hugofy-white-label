@@ -17,10 +17,6 @@ disableKinds = ["RSS"]
 [context.deploy-preview]
 publish = "dist/"
 
-# Here is another way to define context specific environment variables.
-[context.deploy-preview.environment]
-ACCESS_TOKEN = "not so secret"
-
 # Branch Deploy context: all deploys that are not from a pull/merge request or
 # from the Production branch will inherit these settings.
 [context.branch-deploy]
@@ -36,9 +32,9 @@ NODE_ENV = "development"
 
 # For contexts of branches with special characters, enclose the branch name
 # with quotes.
-[context."feat/branch"]
+[context."feat/chad-test"]
 command = "yarn build"
-base = "branch"
+base = "feat/chad-test"
 
 
 [related]
