@@ -24,7 +24,7 @@ modules:
       - title: This is an accordion title number 2
         content: content for the second accordion
   - type: C09_split_title_image_content
-    title: Testing content
+    title: Testing content !
     leadtext: Test test
     content: test test
 slug: homepage
