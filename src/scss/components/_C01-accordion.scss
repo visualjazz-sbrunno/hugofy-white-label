@@ -1,7 +1,25 @@
 .C01-accordion {
-  @include unorderList();
+  @include componentSpacingCompile($paddingTop: false);
+  
+  & .uk-accordion, & :before {
+    list-style-type: none !important;
+  }
 
-  &-top {
-    @include componentSpacingCompile();
+  & .uk-open {
+    & .uk-accordion-title {
+      background-color: $grey-lighter;
+    }
+  }
+
+  & .uk-accordion-title{
+    padding: 10px;
+  }
+
+  & .uk-accordion-content {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
+
+
+
