@@ -58,6 +58,13 @@ modules:
     content1: This is your content.
     title2: Title 2 is optional
     content2: This is optional.
+  - type: C11_statistics
+    stat_number_1: 74
+    stat_type_1: "%"
+    stat_info_1: People love this stack more than sitecore.
+    stat_number_2: 83
+    stat_type_2: "%"
+    stat_info_2: People love this more than AEM.
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
