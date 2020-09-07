@@ -1,0 +1,23 @@
+<div data-id="C10" class="uk-container C10-spotlight-image-content">
+    <div class="uk-card uk-card-default uk-card-body uk-card-no-box-shadow">
+        <div class="uk-child-width-1-1@s uk-child-width-1-2@l uk-text-left uk-flex uk-flex-middle" uk-grid>
+            <div>
+                <img src="{{ .Module.image }}" alt="image for {{ .Module.title1 }} and {{ .Module.title2 }}">
+            </div>
+            <div>
+                {{if .Module.title1}}
+                    <h3>{{ .Module.title1 }}</h3>
+                    <p>{{ .Module.content1 }}</p>
+                    {{if .Module.title2}}
+                        <hr>
+                    {{end}}
+                {{end}}
+
+                {{if .Module.title2}}
+                    <h3>{{ .Module.title2 }}</h3>
+                    <p>{{ .Module.content2 }}</p>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>

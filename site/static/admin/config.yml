@@ -606,8 +606,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: Quote Text, name: quote_text, widget: markdown }
               - { label: Quote Author, name: quote_author, widget: string, required: false }
-          - label: "C04: Spotlight with Image & Content"
-            name: "spotlight_image_content"
+          - label: "C10: Spotlight with Image & Content"
+            name: "C10_spotlight_image_content"
             widget: object
             fields:
               - { label: Image, name: image, widget: image }
