@@ -1,6 +1,8 @@
-.C04-spotlight-image-content {
+.C10-spotlight-image-content {
+  // component controllers
   @include componentSpacingCompile();
 
+  // custom styling below
   @media (max-width: $breakpoint-small) {
     padding-left: 0;
     padding-right: 0;

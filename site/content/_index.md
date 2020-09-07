@@ -5,18 +5,6 @@ meta_description: This is a detailed description of the page.
 banner_title: Together in the business of improving workplace mental health
 banner_image: img/banner-image.jpg
 modules:
-  - type: C09_split_title_image_content
-    title: "C09: Split title image with Content"
-    image: img/guiding-principles.jpg
-    leadtext: This is my lead text here.
-    content: This is my content this is my content this is my content this is my
-      content this is my content this is my content this is my content this is
-      my content this is my content this is my content this is my content this
-      is my content this is my content this is my content this is my content
-      this is my content this is my content.
-  - type: C08_quote
-    quote_text: 'C08 Quote: "This is my quote text"'
-    quote_author: "Sam Brunno: This is optional."
   - type: C01_accordion
     dropdowns:
       - title: "C01 Accordion Title: This is a title for an accordion"
@@ -54,6 +42,36 @@ modules:
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.'
     allowMultiple: false
+  - type: C08_quote
+    quote_text: 'C08 Quote: "This is my quote text"'
+    quote_author: "Sam Brunno: This is optional."
+  - type: C09_split_title_image_content
+    title: "C09: Split title image with Content"
+    image: img/guiding-principles.jpg
+    leadtext: This is my lead text here.
+    content: This is my content this is my content this is my content this is my
+      content this is my content this is my content this is my content this is
+      my content this is my content this is my content this is my content this
+      is my content this is my content this is my content this is my content
+      this is my content this is my content.
+  - type: C10_spotlight_image_content
+    image: img/banner-image.jpg
+    title1: "C10: Spotlight with Image & Content"
+    content1: This is your content.
+    title2: Title 2 is optional
+    content2: This is optional.
+  - type: C11_statistics
+    stat_number_1: 74
+    stat_type_1: "%"
+    stat_info_1: People love this stack more than sitecore.
+    stat_number_2: 83
+    stat_type_2: "%"
+    stat_info_2: People love this more than AEM.
+  - type: C11_statistics
+    stat_number_1: 33
+    stat_type_1: M
+    stat_info_1: Testing multiple stats
+staging
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
