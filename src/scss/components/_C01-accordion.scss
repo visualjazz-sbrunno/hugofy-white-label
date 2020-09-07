@@ -1,13 +1,9 @@
 .C01-accordion {
   @include componentSpacingCompile($paddingTop: false);
   
-  & .uk-accordion, & :before {
-    list-style-type: none !important;
-  }
-
   & .uk-open {
     & .uk-accordion-title {
-      background-color: $grey-lighter;
+      background-color: $grey-lightest;
     }
   }
 
