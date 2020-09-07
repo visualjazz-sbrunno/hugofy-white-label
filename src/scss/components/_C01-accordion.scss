@@ -1,0 +1,21 @@
+.C01-accordion {
+  @include componentSpacingCompile($paddingTop: false);
+  
+  & .uk-open {
+    & .uk-accordion-title {
+      background-color: $grey-lightest;
+    }
+  }
+
+  & .uk-accordion-title{
+    padding: 10px;
+  }
+
+  & .uk-accordion-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+

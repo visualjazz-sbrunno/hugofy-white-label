@@ -26,6 +26,12 @@ publish = "staging/"
 [context.staging.environment]
 NODE_ENV = "development"
 
+# For contexts of branches with special characters, enclose the branch name
+# with quotes.
+[context."feat/chad-test"]
+command = "yarn build"
+base = "feat/chad-test"
+
 
 [related]
 threshold = 0
