@@ -23,6 +23,10 @@ publish = "dist/"
 command = "echo 'staging'"
 base = "staging"
 
+[context.branch-deploy] # 'staging' is a branch name
+command = "yarn build"
+base = "dev-chad-test"
+
 [related]
 threshold = 0
 includeNewer = true
