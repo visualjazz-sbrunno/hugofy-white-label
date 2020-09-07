@@ -30,9 +30,9 @@ NODE_ENV = "development"
 
 # Specific branch context: all deploys from this specific branch will inherit
 # these settings.
-#[context.staging] # 'staging' is a branch name
-#command = "echo 'staging'"
-#base = "staging"
+[context.staging] # 'staging' is a branch name
+command = "yarn build"
+base = "staging"
 
 # For contexts of branches with special characters, enclose the branch name
 # with quotes.
