@@ -23,8 +23,6 @@ modules:
         content: Thjis is content
       - title: This 2
         content: content is here 2
-      - title: test 3
-        content: test
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
