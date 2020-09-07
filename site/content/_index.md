@@ -19,12 +19,10 @@ modules:
     quote_author: "Sam Brunno: This is optional."
   - type: C01_accordion
     dropdowns:
-      - title: this 1
-        content: Thjis is content
-      - title: This 2
-        content: content is here 2
-      - title: This 3
-        content: Testing another
+      - title: this is a title for an accordion
+        content: this is content for the first accordion
+      - title: This is an accordion title number 2
+        content: content for the second accordion
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
