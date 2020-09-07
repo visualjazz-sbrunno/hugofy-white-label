@@ -585,6 +585,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "C01_accordion"
             widget: list
             fields:
+              - { label: Allow Multiple Open, name: allowMultiple, widget: boolean , default: false, required: false }
               - label: "Accordion Dropdowns"
                 name: "dropdowns"
                 widget: list
