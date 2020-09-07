@@ -53,6 +53,7 @@ modules:
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.'
+    allowMultiple: true
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
