@@ -71,18 +71,18 @@ modules:
       ##### C02: Rich Text Heading 5 <h5>
 
 
-      * C02 Bulletted list
+      * C02 Unordered list
 
         * C02 Sub List
-      * C02 Bulleted List point 2
+      * C02 Unordered List point 2
 
 
       ###### C02: Rich Text Heading 6 <h6>
 
 
-      1. C02 numbered List
+      1. C02 Ordered List
 
-      2. C02 Numbered List point 2
+      2. C02 Ordered List point 2
 
 
       **C02: Rich text Bold**
