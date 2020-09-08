@@ -82,15 +82,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
               - { label: Call Out CTA Link, name: callout_cta_link, widget: string }
               - { label: Call Out CTA Text, name: callout_cta_text, widget: string }
-          - label: "C08: Stacked Content with Top Image"
-            name: "stacked-content-top-image"
-            widget: object
-            fields:
-              - { label: Stacked Image, name: stacked_image, widget: image }
-              - { label: Stacked Title, name: stacked_title, widget: string, required: true }
-              - { label: Stacked Description, name: stacked_description, widget: markdown, required: true }
-              - { label: Stacked CTA Link, name: stacked_cta_link, widget: string }
-              - { label: Stacked CTA Text, name: stacked_cta_text, widget: string }
           - label: "C09: Our Members"
             name: "our_members"
             widget: "list"
@@ -396,15 +387,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
               - { label: Call Out CTA Link, name: callout_cta_link, widget: string }
               - { label: Call Out CTA Text, name: callout_cta_text, widget: string }
-          - label: "C08: Stacked Content with Top Image"
-            name: "stacked-content-top-image"
-            widget: object
-            fields:
-              - { label: Stacked Image, name: stacked_image, widget: image }
-              - { label: Stacked Title, name: stacked_title, widget: string, required: true }
-              - { label: Stacked Description, name: stacked_description, widget: markdown, required: true }
-              - { label: Stacked CTA Link, name: stacked_cta_link, widget: string }
-              - { label: Stacked CTA Text, name: stacked_cta_text, widget: string }
           - label: "C09: Our Members"
             name: "our_members"
             widget: "list"
@@ -600,6 +582,8 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Image, name: image, widget: image, required: false }
               - { label: Lead Text, name: leadtext, widget: markdown, required: false }
               - { label: Content, name: content, widget: markdown, required: false }
+              - { label: CTA Link, name: cta_link, widget: string, required: false }
+              - { label: CTA Text, name: cta_text, widget: string, required: false }
           - label: "C08: Quote"
             name: "C08_quote"
             widget: object
@@ -643,26 +627,17 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Card Image 3, name: card_image_3, widget: image, required: false }
               - { label: Card Title 3, name: card_title_3, widget: string, required: false }
               - { label: Card Description 3, name: card_description_3, widget: markdown, required: false }
-          - label: "C07: Call Out with Image, text & CTA"
-            name: "callout-image-text-cta"
+          - label: "C13: Call Out with Image, text & CTA"
+            name: "C13_callout_image_text_cta"
             widget: object
             fields:
               - { label: Call Out Image, name: callout_image, widget: image, required: true }
               - { label: Call Out Title, name: callout_title, widget: string, required: true }
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
-              - { label: Call Out CTA Link, name: callout_cta_link, widget: string }
-              - { label: Call Out CTA Text, name: callout_cta_text, widget: string }
-          - label: "C08: Stacked Content with Top Image"
-            name: "stacked-content-top-image"
-            widget: object
-            fields:
-              - { label: Stacked Image, name: stacked_image, widget: image }
-              - { label: Stacked Title, name: stacked_title, widget: string, required: true }
-              - { label: Stacked Description, name: stacked_description, widget: markdown, required: true }
-              - { label: Stacked CTA Link, name: stacked_cta_link, widget: string }
-              - { label: Stacked CTA Text, name: stacked_cta_text, widget: string }
-          - label: "C09: Our Members"
-            name: "our_members"
+              - { label: Call Out CTA Link, name: callout_cta_link, widget: string, required: false }
+              - { label: Call Out CTA Text, name: callout_cta_text, widget: string, required: false }
+          - label: "C06: Our Members"
+            name: "C06_our_members"
             widget: "list"
             fields:
               - { label: Title, name: our_members_title, widget: string, default: "Our Members", required: true }

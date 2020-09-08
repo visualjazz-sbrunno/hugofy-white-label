@@ -1,4 +1,4 @@
-.C09-our-members {
+.C06-our-members {
   @include componentSpacingCompile();
   @include svgLine();
 
@@ -23,6 +23,7 @@
       }
     }
 
+    // TODO: need to make this more dynamic
     &0,
     &4,
     &8,
