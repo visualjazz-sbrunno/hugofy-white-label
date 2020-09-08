@@ -463,8 +463,8 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Content, name: content, widget: markdown, required: false }
               - { label: CTA Text, name: cta_text, widget: string, required: false }
               - { label: CTA Link, name: cta_link, widget: string, required: false }
-          - label: "C13: Our Board"
-            name: "our_board"
+          - label: "C16: Our Board"
+            name: "C16_our_board"
             widget: "list"
             fields:
               - { label: Title, name: our_board_title, widget: string, default: "Our Board", required: true }
@@ -480,18 +480,6 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Board Quote, name: our_board_quote, widget: string, required: false }
                   - { label: Board Description, name: our_board_description, widget: markdown, required: false }
                   - { label: Board LinkedIn, name: our_board_linkedin, widget: string, required: false }
-              - { label: Executive description, name: our_board_exec_description, widget: markdown, default: "Description goes here", required: false }
-              - label: Executive Board
-                name: exec_board
-                widget: list
-                allow_add: true
-                fields:
-                  - { label: Board Name, name: exec_board_name, widget: string, required: true }
-                  - { label: Board Image, name: exec_board_image, widget: image, required: true }
-                  - { label: Board Title, name: exec_board_title, widget: string, required: true }
-                  - { label: Board Quote, name: exec_board_quote, widget: string, required: false }
-                  - { label: Board Description, name: exec_board_description, widget: markdown, default: "Description goes here" }
-                  - { label: Board LinkedIn, name: exec_board_linkedin, widget: string, required: false }
           - label: "C14: Friends of CMHAA"
             name: "friends_cmhaa"
             widget: "list"
