@@ -43,14 +43,7 @@ modules:
           laborum.'
     allowMultiple: false
   - type: C01_rich_text
-    rich_text_content: |-
-      # C02 Rich Text Heading 1
-
-      ![Rich Text Image](img/bannerrightimage.jpg "A rich text imahe")
-
-      ## C02 Rich Text Heading 2
-
-      > Rich Text Qoute
+    rich_text_content: "# Some rich text"
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
