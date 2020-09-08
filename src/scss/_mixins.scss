@@ -102,10 +102,10 @@
     list-style-position: inside;
     text-align: right;
   }
-  ul > ::before { list-style-type: disc; color: $brand-secondary-raspberry !important; }
+  ul > ::before { list-style-type: disc; color: $brand-primary !important; }
   ol > ::before {
     content: counter(decimal, decimal) '\200A.\00A0';
-    color: $brand-secondary-raspberry !important;
+    color: $brand-primary !important;
     font-family: Futura;
     font-style: normal;
     font-weight: 500;

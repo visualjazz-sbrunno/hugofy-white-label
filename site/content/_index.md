@@ -7,39 +7,121 @@ banner_image: img/banner-image.jpg
 modules:
   - type: C01_accordion
     dropdowns:
-      - title: This is a title for an accordion
-        content: This is content for the first accordion
-      - title: This is an accordion title number 2
-        content: Content for the second accordion
-      - title: Agin another dropdown
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.'
-      - title: The Lorem Ipsum dropdowm
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum."Lorem ipsum dolor sit amet, consectetur
+      - title: "C01 Accordion Title: This is a title for an accordion"
+        content: "C01 Accordion Content: This is content for the first accordion"
+      - title: "C01 Accordion Title: This is an accordion title number 2"
+        content: "C01 Accordion Content: Content for the second accordion"
+      - title: "C01 Accordion Title: Agin another dropdown"
+        content: 'C01 Accordion Content: "Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      - title: "C01 Accordion Title: The Lorem Ipsum dropdowm"
+        content: 'C01 Accordion Content: "Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum."Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum."Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.'
+    allowMultiple: false
+  - type: C02_rich_text
+    rich_text_content: >-
+      # C02: Rich Text Heading 1 <h1>
+
+
+      > "C02: Rich Text Quote inclusion" 
+
+
+      C02: Rich Text normal text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+      ## C02: Rich Text Heading 2 <h2>
+
+
+      ### C02: Rich Text Heading 3 <h3>
+
+
+      ![Image in rich Text](img/bannerrightimage.jpg "An image of a skyline ")
+
+
+      #### C02: Rich Text Heading 4 <h4>
+
+
+      C02: Rich Text link [http://isobar.com.au](https://isobar.com.au)
+
+
+      ##### C02: Rich Text Heading 5 <h5>
+
+
+      * C02 Unordered list
+
+        * C02 Sub List
+      * C02 Unordered List point 2
+
+
+      ###### C02: Rich Text Heading 6 <h6>
+
+
+      1. C02 Ordered List
+
+      2. C02 Ordered List point 2
+
+
+      **C02: Rich text Bold**
+
+
+      *C02: Rich Text Italics*
+  - type: C03_youtube
+    youtube: rwSGQmY31EQ
+  - type: C04_image
+    image: img/banner-image.jpg
+    image_link: /
+  - type: C06_our_members
+    our_members_title: "C06: Our Members"
+    our_members_description: Description goes here
+    member:
+      - our_member_image: img/andrew-culleton.jpg
+        our_member_link: /
+      - our_member_image: img/annette-kimmitt.jpg
+        our_member_link: /
+      - our_member_image: img/berkely-cox.jpg
+        our_member_link: /
+      - our_member_image: img/brian-long.jpg
+        our_member_link: /
+      - our_member_image: img/bruce-cooper.jpg
+        our_member_link: /
+      - our_member_image: img/david-brewster.jpg
+        our_member_link: /
+      - our_member_image: img/deborah-yates.jpg
+        our_member_link: /
+      - our_member_image: img/ellen-derrick.jpg
+        our_member_link: /
+      - our_member_image: img/felicity-mcdowell.jpg
+        our_member_link: /
+      - our_member_image: img/helen-silver.jpg
+        our_member_link: /
+      - our_member_image: img/melinda-upton.jpg
+        our_member_link: /
+      - our_member_image: img/michael-schneider.jpg
+        our_member_link: /
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
@@ -103,41 +185,10 @@ modules:
       scelerisque congue non nulla.
     callout_cta_link: /
     callout_cta_text: Optional Text
-  - type: C06_our_members
-    our_members_title: "C06: Our Members"
-    our_members_description: Description goes here
-    member:
-      - our_member_image: img/andrew-culleton.jpg
-        our_member_link: /
-      - our_member_image: img/annette-kimmitt.jpg
-        our_member_link: /
-      - our_member_image: img/berkely-cox.jpg
-        our_member_link: /
-      - our_member_image: img/brian-long.jpg
-        our_member_link: /
-      - our_member_image: img/bruce-cooper.jpg
-        our_member_link: /
-      - our_member_image: img/david-brewster.jpg
-        our_member_link: /
-      - our_member_image: img/deborah-yates.jpg
-        our_member_link: /
-      - our_member_image: img/ellen-derrick.jpg
-        our_member_link: /
-      - our_member_image: img/felicity-mcdowell.jpg
-        our_member_link: /
-      - our_member_image: img/helen-silver.jpg
-        our_member_link: /
-      - our_member_image: img/melinda-upton.jpg
-        our_member_link: /
-      - our_member_image: img/michael-schneider.jpg
-        our_member_link: /
   - type: C14_youtube_with_quote
     youtube_quote_id: mgS9BizFeYE
     youtube_quote_text: "**C14: Youtube with Quote.** This is a sample component."
     youtube_quote_author: SammyB
-  - type: C04_image
-    image: img/banner-image.jpg
-    image_link: /
   - type: C15_split_title_content_background
     disable_column: false
     title: "C15: Split Title with Content & Background"

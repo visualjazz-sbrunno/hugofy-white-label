@@ -1,7 +1,0 @@
-.C18-rich-text {
-  @include unorderList();
-
-  &-top {
-    @include componentSpacingCompile();
-  }
-}

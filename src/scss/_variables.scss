@@ -38,7 +38,10 @@ $global-danger-background:                       #f0506e !default;
 $container-max-width: 1144px;
 $global-link-color: $brand-primary;
 
+//accordion overrides
 $accordion-icon-color: $brand-primary;
+$accordion-title-hover-color: $brand-primary;
+$accordion-title-color: $brand-secondary;
 
 //font-size
 $global-font-size: 20px;

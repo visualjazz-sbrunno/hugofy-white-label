@@ -1,0 +1,51 @@
+.C02-rich-text{
+  @include componentSpacingCompile($paddingTop: false);
+  @include unorderList();
+  h1, h2, h3,{
+    text-align: center;
+  }
+  h4, h5, h6{
+    text-align: left;
+  }
+  & h1{
+    color: $brand-primary;
+  }
+
+  & h2{
+    color: $brand-secondary-darker;
+  }
+
+  & h3{
+    color: $brand-secondary;
+  }
+
+  & h4 {
+    color: $brand-secondary-red;
+  }
+
+  & h5{
+    color: $brand-secondary-darker;
+  }
+
+  & h6{
+    color: $brand-secondary;
+  }
+
+  & blockquote{
+    color: $grey-lightest;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & ul{
+    & p {
+      margin-bottom: 0px !important;
+    }
+  }
+
+}
