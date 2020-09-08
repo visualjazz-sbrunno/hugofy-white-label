@@ -1,0 +1,14 @@
+<div data-id="C04" class="C04_image uk-container global-padding-tb uk-padding-remove-top">
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1@s uk-margin uk-card-no-box-shadow" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            {{if .Module.image_link }}
+            <a href="{{.Module.image_link}}" target="_self">
+            {{end}}
+            <img src="{{ .Module.image }}" alt="image for {{ .Module.image }}" uk-cover>
+            {{if .Module.image_link }}
+            </a>
+            {{end}}
+            <canvas width="600" height="400"></canvas>
+        </div>
+    </div>
+</div>

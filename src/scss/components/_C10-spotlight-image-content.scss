@@ -2,7 +2,7 @@
   // component controllers
   @include componentSpacingCompile();
 
-  // custom styling below
+  // custom styling below (white-label applied)
   @media (max-width: $breakpoint-small) {
     padding-left: 0;
     padding-right: 0;

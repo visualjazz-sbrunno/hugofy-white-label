@@ -114,10 +114,98 @@ modules:
     stat_number_2: 83
     stat_type_2: "%"
     stat_info_2: People love this more than AEM.
-  - type: C11_statistics
-    stat_number_1: 33
-    stat_type_1: M
-    stat_info_1: Testing multiple stats
+  - card_image_3: img/safesettings.png
+    card_description_2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
+      facilisis ultricies lorem, ut imperdiet nulla semper tristique.
+    card_description_3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
+      facilisis ultricies lorem, ut imperdiet nulla semper tristique.
+    intro_title: "C12: Pillar Content - Card, Image & Description"
+    intro_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
+      facilisis ultricies lorem, ut imperdiet nulla semper tristique. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet
+      felis varius, imperdiet sem et, congue nisi. Aenean facilisis ultricies
+      lorem, ut imperdiet nulla semper tristique.
+    type: C12_pillar_content_cards
+    card_title_1: Card title 1
+    card_title_2: Card title 2 (optional)
+    card_title_3: Card title 3 (optional)
+    card_image_1: img/drivelastingchange.png
+    card_image_2: img/equipourleaders.png
+    card_description_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
+      facilisis ultricies lorem, ut imperdiet nulla semper tristique.
+  - type: C13_callout_image_text_cta
+    callout_image: img/banner-image.jpg
+    callout_title: "C13: Call out with Image, Text & CTA"
+    callout_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Fusce rutrum neque blandit, tempus mauris ut, accumsan tortor. Curabitur
+      interdum dapibus sollicitudin. Praesent at fringilla risus, vel pharetra
+      ligula. Aliquam placerat augue eu luctus iaculis. Nunc pharetra, libero
+      quis viverra viverra, arcu sapien vulputate dui, vel convallis velit purus
+      ac dui. Nulla facilisi. Integer lacinia nulla at augue auctor auctor. Cras
+      et tincidunt lectus. Mauris finibus ex quis lectus viverra luctus. Fusce
+      vel hendrerit elit. Vestibulum ac nisi tortor. Etiam enim augue, porttitor
+      eget vehicula id, aliquet vitae mi. Cras in urna eget odio rhoncus
+      scelerisque congue non nulla.
+    callout_cta_link: /
+    callout_cta_text: Optional Text
+  - type: C06_our_members
+    our_members_title: "C06: Our Members"
+    our_members_description: Description goes here
+    member:
+      - our_member_image: img/andrew-culleton.jpg
+        our_member_link: /
+      - our_member_image: img/annette-kimmitt.jpg
+        our_member_link: /
+      - our_member_image: img/berkely-cox.jpg
+        our_member_link: /
+      - our_member_image: img/brian-long.jpg
+        our_member_link: /
+      - our_member_image: img/bruce-cooper.jpg
+        our_member_link: /
+      - our_member_image: img/david-brewster.jpg
+        our_member_link: /
+      - our_member_image: img/deborah-yates.jpg
+        our_member_link: /
+      - our_member_image: img/ellen-derrick.jpg
+        our_member_link: /
+      - our_member_image: img/felicity-mcdowell.jpg
+        our_member_link: /
+      - our_member_image: img/helen-silver.jpg
+        our_member_link: /
+      - our_member_image: img/melinda-upton.jpg
+        our_member_link: /
+      - our_member_image: img/michael-schneider.jpg
+        our_member_link: /
+  - type: C14_youtube_with_quote
+    youtube_quote_id: mgS9BizFeYE
+    youtube_quote_text: "**C14: Youtube with Quote.** This is a sample component."
+    youtube_quote_author: SammyB
+  - type: C04_image
+    image: img/banner-image.jpg
+    image_link: /
+  - type: C15_split_title_content_background
+    disable_column: false
+    title: "C15: Split Title with Content & Background"
+    leadtext: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque."
+    content: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit
+      vitae nulla a scelerisque."
+    cta_text: CTA Optional
+    cta_link: /
+  - type: C15_split_title_content_background
+    disable_column: true
+    title: "C15: Split Title with Content & Background with disabled columns"
+    leadtext: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque."
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
