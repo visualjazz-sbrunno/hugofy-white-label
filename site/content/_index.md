@@ -90,7 +90,7 @@ modules:
 
       *C02: Rich Text Italics*
   - type: C03_youtube
-    youtube: 7uWEucoGfG0
+    youtube: rwSGQmY31EQ
   - type: C04_image
     image: img/banner-image.jpg
     image_link: /
