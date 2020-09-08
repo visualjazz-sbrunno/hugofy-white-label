@@ -43,12 +43,52 @@ modules:
           laborum.'
     allowMultiple: false
   - type: C02_rich_text
-    rich_text_content: |-
-      # Rich Text Heading 1
+    rich_text_content: >-
+      # C02: Rich Text Heading 1 <h1>
 
-      > Rich Text Quote inclusion 
 
-      Some other text
+      > C02: Rich Text Quote inclusion 
+
+
+      C02: Rich Text normal text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+      ## C02: Rich Text Heading 2 <h2>
+
+
+      ### C02: Rich Text Heading 3 <h3>
+
+
+      ![Image in rich Text](img/bannerrightimage.jpg "An image of a skyline ")
+
+
+      #### C02: Rich Text Heading 4 <h4>
+
+
+      C02: Rich Text link <https://isobar.com.au>
+
+
+      ##### C02: Rich Text Heading 5 <h5>
+
+
+      * C02 Bulletted list
+
+        * C02 Sub List
+      * C02 Bulleted List point 2
+
+
+      ###### C02: Rich Text Heading 6 <h6>
+
+
+      1. C02 numbered List
+
+      2. C02 Numbered List point 2
+
+
+      **C02: Rich text Bold**
+
+
+      *C02: Rich Text Italics*
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
