@@ -98,30 +98,26 @@ modules:
     our_members_title: "C06: Our Members"
     our_members_description: Description goes here
     member:
-      - our_member_image: img/andrew-culleton.jpg
-        our_member_link: /
-      - our_member_image: img/annette-kimmitt.jpg
-        our_member_link: /
-      - our_member_image: img/berkely-cox.jpg
-        our_member_link: /
-      - our_member_image: img/brian-long.jpg
-        our_member_link: /
-      - our_member_image: img/bruce-cooper.jpg
-        our_member_link: /
-      - our_member_image: img/david-brewster.jpg
-        our_member_link: /
-      - our_member_image: img/deborah-yates.jpg
-        our_member_link: /
-      - our_member_image: img/ellen-derrick.jpg
-        our_member_link: /
-      - our_member_image: img/felicity-mcdowell.jpg
-        our_member_link: /
-      - our_member_image: img/helen-silver.jpg
-        our_member_link: /
-      - our_member_image: img/melinda-upton.jpg
-        our_member_link: /
-      - our_member_image: img/michael-schneider.jpg
-        our_member_link: /
+        - our_member_image: img/allianz.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/bunnings.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/clayton.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/coles.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/commbank.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/deloitte.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/dlapiper.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/johnson.png
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/kingwood.jpg
+          our_member_link: https://duckduckgo.com/
+        - our_member_image: img/kpmg.jpg
+          our_member_link: https://duckduckgo.com/
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
@@ -218,48 +214,6 @@ modules:
       sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
       mollit anim id est laborum.
     our_board_exec_description: Description goes here
-    exec_board:
-      - exec_board_description: Description goes here
-        exec_board_image: img/andrew-culleton.jpg
-        exec_board_name: Test Name 1
-        exec_board_title: CEO
-        exec_board_quote: This is. an optional quote
-        exec_board_linkedin: www.linkedin.com
-      - exec_board_description: Description goes here
-        exec_board_name: Test Name 2
-        exec_board_image: img/annette-kimmitt.jpg
-        exec_board_title: CTO
-      - exec_board_description: Description goes here
-        exec_board_name: Test Name 3
-        exec_board_image: img/berkely-cox.jpg
-        exec_board_title: CFO
-        exec_board_quote: Optional quote
-        exec_board_linkedin: www.linkedin.com
-      - exec_board_description: Description goes here
-        exec_board_name: Test Name 4
-        exec_board_image: img/brian-long.jpg
-        exec_board_title: CMO
-      - exec_board_description: Description goes here
-        exec_board_name: Test Name 5
-        exec_board_image: img/bruce-cooper.jpg
-        exec_board_title: CVO
-        exec_board_quote: ""
-      - exec_board_description: Description goes here
-        exec_board_image: img/david-brewster.jpg
-        exec_board_name: Test Name 6
-        exec_board_title: CTO
-      - exec_board_description: Description goes here
-        exec_board_image: img/deborah-yates.jpg
-        exec_board_title: CGO
-        exec_board_name: Test Name 7
-      - exec_board_description: Description goes here
-        exec_board_image: img/ellen-derrick.jpg
-        exec_board_name: Test Name 8
-        exec_board_title: CDO
-      - exec_board_description: Description goes here
-        exec_board_image: img/felicity-mcdowell.jpg
-        exec_board_name: Test Name 9
-        exec_board_title: CRO
     board:
       - our_board_name: Test Name 1
         our_board_image: img/andrew-culleton.jpg
