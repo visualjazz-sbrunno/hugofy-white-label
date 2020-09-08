@@ -138,6 +138,13 @@ modules:
   - type: C04_image
     image: img/banner-image.jpg
     image_link: /
+  - type: split_title_content_background
+    disable_leftright: false
+    title: "C12: Split Title with Content & Background"
+    leadtext: This is your lead text which is optional.
+    content: This is your content which is optional.
+    cta_text: CTA Optional
+    cta_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
