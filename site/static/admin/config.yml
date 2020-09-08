@@ -361,7 +361,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: Content, name: rich_text_content, widget: markdown , required: true }
           - label: "C03: Youtube"
-            name: "youtube"
+            name: "C03_youtube"
             widget: object
             fields:
               - { label: Youtube ID, name: youtube, widget: string, required: false, default: "7uWEucoGfG0" }
