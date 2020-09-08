@@ -37,7 +37,7 @@ modules:
 
 
       Our strength lies in the unique collaboration of our members, working together to draw upon the vast pool of knowledge and experience from across business, and with guidance from our expert advisors, to find, test and deliver solutions that work for our members.
-    disable_leftright: false
+    disable_column: false
   - our_board_exec_linkedin: https://www.linkedin.com/
     board:
       - our_board_name: BEN FITZPATRICK

@@ -39,7 +39,7 @@ modules:
 
       * **Green ribbon**: A key result of the Green Light to Talk campaign is that in 2017 the Lord Mayor’s Appeal approached PwC and asked to incorporate the Green Ribbon into the This is Me campaign, complementing This is Me story-telling from Barclays. As a result, this has gone far beyond just a PwC campaign and in Mental Health Awareness Week 2019 over 250,000 people wore a green ribbon across the UK. In addition, increasingly people at PwC are wearing green ribbons all year around and taking them to client sites. PwC has now launched this campaign in other offices around the world including Australia and the US.
   - type: split_title_content_background
-    disable_leftright: true
+    disable_column: true
     title: Time and resources needed
     content: >-
       PwC’s main challenge in 2016 was not knowing whether people would pick up

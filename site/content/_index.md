@@ -139,7 +139,7 @@ modules:
     image: img/banner-image.jpg
     image_link: /
   - type: split_title_content_background
-    disable_leftright: false
+    disable_column: false
     title: "C12: Split Title with Content & Background"
     leadtext: This is your lead text which is optional This is your lead text which
       is optional. This is your lead text which is optional. This is your lead
@@ -150,7 +150,7 @@ modules:
     cta_text: CTA Optional
     cta_link: /
   - type: split_title_content_background
-    disable_leftright: true
+    disable_column: true
     title: "C12: Split Title with Content & Background with disabled left right"
     leadtext: This is your lead text which is optional This is your lead text which
       is optional. This is your lead text which is optional. This is your lead

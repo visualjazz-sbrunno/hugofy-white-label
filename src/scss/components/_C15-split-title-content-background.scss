@@ -1,9 +1,11 @@
-.C12-split-title-content-background {
+.C15-split-title-content-background {
+  // component controllers
   @include componentSpacingCompile();
   @include unorderList();
+
+  // custom styling below (white-label applied)
   background-color: $grey-lightest;
   margin-bottom: 30px;
-
   @media (max-width: $breakpoint-small) {
     margin-bottom: 10px;
   }
