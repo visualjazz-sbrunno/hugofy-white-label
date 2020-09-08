@@ -157,6 +157,52 @@ modules:
     leadtext: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
       nulla a scelerisque."
+  - type: C16_our_board
+    our_board_title: Our Board
+    our_board_description: Description goes here
+    our_board_exec_description: Description goes here
+    exec_board:
+      - exec_board_description: Description goes here
+        exec_board_image: img/andrew-culleton.jpg
+        exec_board_name: Test Name 1
+        exec_board_title: CEO
+        exec_board_quote: This is. an optional quote
+        exec_board_linkedin: www.linkedin.com
+      - exec_board_description: Description goes here
+        exec_board_name: Test Name 2
+        exec_board_image: img/annette-kimmitt.jpg
+        exec_board_title: CTO
+      - exec_board_description: Description goes here
+        exec_board_name: Test Name 3
+        exec_board_image: img/berkely-cox.jpg
+        exec_board_title: CFO
+        exec_board_quote: Optional quote
+        exec_board_linkedin: www.linkedin.com
+      - exec_board_description: Description goes here
+        exec_board_name: Test Name 4
+        exec_board_image: img/brian-long.jpg
+        exec_board_title: CMO
+      - exec_board_description: Description goes here
+        exec_board_name: Test Name 5
+        exec_board_image: img/bruce-cooper.jpg
+        exec_board_title: CVO
+        exec_board_quote: ""
+      - exec_board_description: Description goes here
+        exec_board_image: img/david-brewster.jpg
+        exec_board_name: Test Name 6
+        exec_board_title: CTO
+      - exec_board_description: Description goes here
+        exec_board_image: img/deborah-yates.jpg
+        exec_board_title: CGO
+        exec_board_name: Test Name 7
+      - exec_board_description: Description goes here
+        exec_board_image: img/ellen-derrick.jpg
+        exec_board_name: Test Name 8
+        exec_board_title: CDO
+      - exec_board_description: Description goes here
+        exec_board_image: img/felicity-mcdowell.jpg
+        exec_board_name: Test Name 9
+        exec_board_title: CRO
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
