@@ -141,8 +141,23 @@ modules:
   - type: split_title_content_background
     disable_leftright: false
     title: "C12: Split Title with Content & Background"
-    leadtext: This is your lead text which is optional.
-    content: This is your content which is optional.
+    leadtext: This is your lead text which is optional This is your lead text which
+      is optional. This is your lead text which is optional. This is your lead
+      text which is optional.
+    content: This is your content which is optional. This is your content which is
+      optional. This is your content which is optional. This is your content
+      which is optional.
+    cta_text: CTA Optional
+    cta_link: /
+  - type: split_title_content_background
+    disable_leftright: true
+    title: "C12: Split Title with Content & Background with disabled left right"
+    leadtext: This is your lead text which is optional This is your lead text which
+      is optional. This is your lead text which is optional. This is your lead
+      text which is optional.
+    content: This is your content which is optional. This is your content which is
+      optional. This is your content which is optional. This is your content
+      which is optional.
     cta_text: CTA Optional
     cta_link: /
 slug: homepage
