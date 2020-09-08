@@ -65,7 +65,7 @@ modules:
       #### C02: Rich Text Heading 4 <h4>
 
 
-      C02: Rich Text link <https://isobar.com.au>
+      C02: Rich Text link [http://isobar.com.au](https://isobar.com.au)
 
 
       ##### C02: Rich Text Heading 5 <h5>
