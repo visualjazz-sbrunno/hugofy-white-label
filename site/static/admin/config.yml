@@ -499,12 +499,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Title, name: contact_title, widget: string, required: true }
               - { label: Lead, name: contact_lead, widget: string, required: false }
               - { label: Description, name: contact_description, widget: markdown, required: false }
-          - label: "C18: Rich Text"
-            name: "rich-text"
-            widget: object
-            fields:
-              - { label: Rich text top section, name: richtext_top, widget: boolean, default: true, required: false }
-              - { label: Rich Text Content, name: richtext, widget: markdown, required: true }
           - label: "C19: Image Gallery"
             name: "image_gallery"
             widget: "list"
