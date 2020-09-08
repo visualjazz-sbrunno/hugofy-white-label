@@ -42,8 +42,13 @@ modules:
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.'
     allowMultiple: false
-  - type: C01_rich_text
-    rich_text_content: "# Some rich text"
+  - type: C02_rich_text
+    rich_text_content: |-
+      # Rich Text Heading 1
+
+      > Rich Text Quote inclusion 
+
+      Some other text
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
