@@ -113,6 +113,8 @@ modules:
         our_member_link: /
       - our_member_image: img/berkely-cox.jpg
         our_member_link: /
+      - our_member_image: img/brian-long.jpg
+        our_member_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
