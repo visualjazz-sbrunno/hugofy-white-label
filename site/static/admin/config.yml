@@ -628,11 +628,11 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - { label: Our Member Image, name: our_member_image, widget: image }
                   - { label: Our Member Link, name: our_member_link, widget: string }
-          - label: "C10: Youtube with Quote"
-            name: "youtube_with_quote"
+          - label: "C14: Youtube with Quote"
+            name: "C14_youtube_with_quote"
             widget: object
             fields:
-              - { label: Youtube ID, name: youtube_quote_id, widget: string, required: false, default: "7uWEucoGfG0" }
+              - { label: Youtube ID, name: youtube_quote_id, widget: string, required: false, default: "mgS9BizFeYE" }
               - { label: Quote Text, name: youtube_quote_text, widget: markdown }
               - { label: Quote Author, name: youtube_quote_author, widget: string }
           - label: "C11: Image"

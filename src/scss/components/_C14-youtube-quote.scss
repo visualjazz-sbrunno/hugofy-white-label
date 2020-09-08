@@ -1,4 +1,6 @@
-.C10-youtube-quote {
+$C14-background-color: $grey-lightest;
+.C14-youtube-quote {
+  // custom styling below (white-label applied)
   @media (max-width: $breakpoint-small) {
     &.uk-container {
       padding-left: 0;
@@ -7,7 +9,7 @@
   }
 
   &__container {
-    background-color: $grey-lightest;
+    background-color: $C14-background-color;
   }
 
   @media (max-width: $breakpoint-small) {
