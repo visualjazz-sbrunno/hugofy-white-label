@@ -137,6 +137,7 @@ modules:
     youtube_quote_author: SammyB
   - type: C04_image
     image: img/banner-image.jpg
+    image_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
