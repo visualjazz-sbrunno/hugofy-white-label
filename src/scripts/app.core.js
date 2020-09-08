@@ -6,7 +6,7 @@ window.UIkit = UIkit;
  * Import Classes
  */
 // import $ from 'jquery';
-import {Namespace, Browser, StickyHeader, Statistics, Members, Friends, ContactForm, ShareSocial} from "./modules";
+import {Namespace, Browser, StickyHeader, Statistics, Members, ShowHide, ContactForm, ShareSocial} from "./modules";
 
 // loads the Icon plugin
 UIkit.use(Icons);
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   new StickyHeader();
   new Statistics();
   new Members();
-  new Friends();
+  new ShowHide();
   new ContactForm();
   new ShareSocial();
 });
