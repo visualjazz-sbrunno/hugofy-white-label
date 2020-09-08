@@ -135,6 +135,8 @@ modules:
     youtube_quote_id: mgS9BizFeYE
     youtube_quote_text: "**C14: Youtube with Quote.** This is a sample component."
     youtube_quote_author: SammyB
+  - type: C04_image
+    image: img/banner-image.jpg
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
