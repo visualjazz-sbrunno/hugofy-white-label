@@ -469,18 +469,18 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Board Quote, name: our_board_quote, widget: string, required: false }
                   - { label: Board Description, name: our_board_description, widget: markdown, required: false }
                   - { label: Board LinkedIn, name: our_board_linkedin, widget: string, required: false }
-          - label: "C14: Friends of CMHAA"
-            name: "friends_cmhaa"
+          - label: "C05: Show Hide"
+            name: "C05_show_hide"
             widget: "list"
             fields:
-              - { label: Title, name: friends_cmhaa_title, widget: string, default: "Friends of CMHAA", required: true }
-              - { label: Description, name: friends_cmhaa_description, widget: markdown, default: "CMHAA is guided by a group of mental health experts from across Australia. We call this group the Friends of CMHAA:" }
-              - label: Friends
-                name: friend
+              - { label: Title, name: showhide_title, widget: string, required: true }
+              - { label: Description, name: showhide_description, widget: markdown, required: false }
+              - label: Show Hide Section
+                name: showhide
                 widget: list
                 allow_add: true
                 fields:
-                  - { label: Our friend, name: friend_text, widget: string }
+                  - { label: Content, name: showhide_content, widget: markdown }
           - label: "C16: Contact form"
             name: "contact-form"
             widget: object

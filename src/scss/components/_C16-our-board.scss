@@ -1,6 +1,8 @@
 .C16-our-board {
+  // component controllers
   @include componentSpacingCompile();
 
+  // custom styling below (white-label applied)
   &__count {
     padding-top: 64px;
   }
@@ -32,7 +34,7 @@
       &:hover {
         text-decoration: none;
         h6 {
-          color: $brand-secondary-raspberry;
+          color: $brand-primary;
         }
       }
     }
