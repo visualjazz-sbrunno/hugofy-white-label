@@ -94,30 +94,50 @@ modules:
   - type: C04_image
     image: img/banner-image.jpg
     image_link: /
+  - type: C05_show_hide
+    showhide_title: "C05: Show & Hide"
+    showhide_description: "**Optional** Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum."
+    showhide:
+      - showhide_content: >-
+          This is show hides content section.
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+          * Unordered list
+
+          * Yep
   - type: C06_our_members
     our_members_title: "C06: Our Members"
     our_members_description: Description goes here
     member:
-        - our_member_image: img/allianz.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/bunnings.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/clayton.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/coles.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/commbank.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/deloitte.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/dlapiper.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/johnson.png
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/kingwood.jpg
-          our_member_link: https://duckduckgo.com/
-        - our_member_image: img/kpmg.jpg
-          our_member_link: https://duckduckgo.com/
+      - our_member_image: img/allianz.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/bunnings.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/clayton.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/coles.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/commbank.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/deloitte.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/dlapiper.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/johnson.png
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/kingwood.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/kpmg.jpg
+        our_member_link: https://duckduckgo.com/
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
@@ -245,26 +265,6 @@ modules:
       - our_board_name: Test Name 9
         our_board_image: img/felicity-mcdowell.jpg
         our_board_title: CPO
-  - type: C05_show_hide
-    showhide_title: "C05: Show & Hide"
-    showhide_description: "**Optional** Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-      qui officia deserunt mollit anim id est laborum."
-    showhide:
-      - showhide_content: >-
-          This is show hides content section.
-
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-          * Unordered list
-
-          * Yep
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
