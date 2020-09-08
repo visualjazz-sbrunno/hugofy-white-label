@@ -360,6 +360,36 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - { label: Content, name: rich_text_content, widget: markdown , required: true }
+          - label: "C03: Youtube"
+            name: "youtube"
+            widget: object
+            fields:
+              - { label: Youtube ID, name: youtube, widget: string, required: false, default: "7uWEucoGfG0" }
+          - label: "C04: Image"
+            name: "C04_image"
+            widget: object
+            fields:
+              - { label: Image, name: image, widget: image, required: true }
+              - { label: Image Link, name: image_link, widget: string, required: false }
+          - label: "C06: Our Members"
+            name: "C06_our_members"
+            widget: "list"
+            fields:
+              - { label: Title, name: our_members_title, widget: string, default: "Our Members", required: true }
+              - { label: Description, name: our_members_description, widget: markdown, default: "Description goes here" }
+              - label: Member
+                name: member
+                widget: list
+                allow_add: true
+                fields:
+                  - { label: Our Member Image, name: our_member_image, widget: image }
+                  - { label: Our Member Link, name: our_member_link, widget: string }
+          - label: "C08: Quote"
+            name: "C08_quote"
+            widget: object
+            fields:
+              - { label: Quote Text, name: quote_text, widget: markdown }
+              - { label: Quote Author, name: quote_author, widget: string, required: false }
           - label: "C09: Split Title with Content"
             name: "C09_split_title_image_content"
             widget: object
@@ -370,12 +400,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Content, name: content, widget: markdown, required: false }
               - { label: CTA Link, name: cta_link, widget: string, required: false }
               - { label: CTA Text, name: cta_text, widget: string, required: false }
-          - label: "C08: Quote"
-            name: "C08_quote"
-            widget: object
-            fields:
-              - { label: Quote Text, name: quote_text, widget: markdown }
-              - { label: Quote Author, name: quote_author, widget: string, required: false }
           - label: "C10: Spotlight with Image & Content"
             name: "C10_spotlight_image_content"
             widget: object
@@ -422,19 +446,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
               - { label: Call Out CTA Link, name: callout_cta_link, widget: string, required: false }
               - { label: Call Out CTA Text, name: callout_cta_text, widget: string, required: false }
-          - label: "C06: Our Members"
-            name: "C06_our_members"
-            widget: "list"
-            fields:
-              - { label: Title, name: our_members_title, widget: string, default: "Our Members", required: true }
-              - { label: Description, name: our_members_description, widget: markdown, default: "Description goes here" }
-              - label: Member
-                name: member
-                widget: list
-                allow_add: true
-                fields:
-                  - { label: Our Member Image, name: our_member_image, widget: image }
-                  - { label: Our Member Link, name: our_member_link, widget: string }
           - label: "C14: Youtube with Quote"
             name: "C14_youtube_with_quote"
             widget: object
@@ -442,12 +453,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Youtube ID, name: youtube_quote_id, widget: string, required: false, default: "mgS9BizFeYE" }
               - { label: Quote Text, name: youtube_quote_text, widget: markdown }
               - { label: Quote Author, name: youtube_quote_author, widget: string }
-          - label: "C04: Image"
-            name: "C04_image"
-            widget: object
-            fields:
-              - { label: Image, name: image, widget: image, required: true }
-              - { label: Image Link, name: image_link, widget: string, required: false }
           - label: "C15: Split Title with Content & Background"
             name: "C15_split_title_content_background"
             widget: object
@@ -506,11 +511,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Title, name: contact_title, widget: string, required: true }
               - { label: Lead, name: contact_lead, widget: string, required: false }
               - { label: Description, name: contact_description, widget: markdown, required: false }
-          - label: "C17: Youtube"
-            name: "youtube"
-            widget: object
-            fields:
-              - { label: Youtube ID, name: youtube, widget: string, required: false, default: "7uWEucoGfG0" }
           - label: "C18: Rich Text"
             name: "rich-text"
             widget: object
