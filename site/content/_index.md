@@ -98,30 +98,26 @@ modules:
     our_members_title: "C06: Our Members"
     our_members_description: Description goes here
     member:
-      - our_member_image: img/andrew-culleton.jpg
-        our_member_link: /
-      - our_member_image: img/annette-kimmitt.jpg
-        our_member_link: /
-      - our_member_image: img/berkely-cox.jpg
-        our_member_link: /
-      - our_member_image: img/brian-long.jpg
-        our_member_link: /
-      - our_member_image: img/bruce-cooper.jpg
-        our_member_link: /
-      - our_member_image: img/david-brewster.jpg
-        our_member_link: /
-      - our_member_image: img/deborah-yates.jpg
-        our_member_link: /
-      - our_member_image: img/ellen-derrick.jpg
-        our_member_link: /
-      - our_member_image: img/felicity-mcdowell.jpg
-        our_member_link: /
-      - our_member_image: img/helen-silver.jpg
-        our_member_link: /
-      - our_member_image: img/melinda-upton.jpg
-        our_member_link: /
-      - our_member_image: img/michael-schneider.jpg
-        our_member_link: /
+      - our_member_image: img/allianz.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/bunnings.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/clayton.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/coles.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/commbank.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/deloitte.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/dlapiper.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/johnson.png
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/kingwood.jpg
+        our_member_link: https://duckduckgo.com/
+      - our_member_image: img/kpmg.jpg
+        our_member_link: https://duckduckgo.com/
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
