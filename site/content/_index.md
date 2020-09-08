@@ -89,6 +89,39 @@ modules:
 
 
       *C02: Rich Text Italics*
+  - type: youtube
+    youtube: 7uWEucoGfG0
+  - type: C04_image
+    image: img/banner-image.jpg
+    image_link: /
+  - type: C06_our_members
+    our_members_title: "C06: Our Members"
+    our_members_description: Description goes here
+    member:
+      - our_member_image: img/andrew-culleton.jpg
+        our_member_link: /
+      - our_member_image: img/annette-kimmitt.jpg
+        our_member_link: /
+      - our_member_image: img/berkely-cox.jpg
+        our_member_link: /
+      - our_member_image: img/brian-long.jpg
+        our_member_link: /
+      - our_member_image: img/bruce-cooper.jpg
+        our_member_link: /
+      - our_member_image: img/david-brewster.jpg
+        our_member_link: /
+      - our_member_image: img/deborah-yates.jpg
+        our_member_link: /
+      - our_member_image: img/ellen-derrick.jpg
+        our_member_link: /
+      - our_member_image: img/felicity-mcdowell.jpg
+        our_member_link: /
+      - our_member_image: img/helen-silver.jpg
+        our_member_link: /
+      - our_member_image: img/melinda-upton.jpg
+        our_member_link: /
+      - our_member_image: img/michael-schneider.jpg
+        our_member_link: /
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
@@ -152,41 +185,10 @@ modules:
       scelerisque congue non nulla.
     callout_cta_link: /
     callout_cta_text: Optional Text
-  - type: C06_our_members
-    our_members_title: "C06: Our Members"
-    our_members_description: Description goes here
-    member:
-      - our_member_image: img/andrew-culleton.jpg
-        our_member_link: /
-      - our_member_image: img/annette-kimmitt.jpg
-        our_member_link: /
-      - our_member_image: img/berkely-cox.jpg
-        our_member_link: /
-      - our_member_image: img/brian-long.jpg
-        our_member_link: /
-      - our_member_image: img/bruce-cooper.jpg
-        our_member_link: /
-      - our_member_image: img/david-brewster.jpg
-        our_member_link: /
-      - our_member_image: img/deborah-yates.jpg
-        our_member_link: /
-      - our_member_image: img/ellen-derrick.jpg
-        our_member_link: /
-      - our_member_image: img/felicity-mcdowell.jpg
-        our_member_link: /
-      - our_member_image: img/helen-silver.jpg
-        our_member_link: /
-      - our_member_image: img/melinda-upton.jpg
-        our_member_link: /
-      - our_member_image: img/michael-schneider.jpg
-        our_member_link: /
   - type: C14_youtube_with_quote
     youtube_quote_id: mgS9BizFeYE
     youtube_quote_text: "**C14: Youtube with Quote.** This is a sample component."
     youtube_quote_author: SammyB
-  - type: C04_image
-    image: img/banner-image.jpg
-    image_link: /
   - type: C15_split_title_content_background
     disable_column: false
     title: "C15: Split Title with Content & Background"
