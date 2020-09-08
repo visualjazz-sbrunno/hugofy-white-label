@@ -138,28 +138,25 @@ modules:
   - type: C04_image
     image: img/banner-image.jpg
     image_link: /
-  - type: split_title_content_background
+  - type: C15_split_title_content_background
     disable_leftright: false
-    title: "C12: Split Title with Content & Background"
-    leadtext: This is your lead text which is optional This is your lead text which
-      is optional. This is your lead text which is optional. This is your lead
-      text which is optional.
-    content: This is your content which is optional. This is your content which is
-      optional. This is your content which is optional. This is your content
-      which is optional.
+    title: "C15: Split Title with Content & Background"
+    leadtext: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque."
+    content: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit
+      vitae nulla a scelerisque."
     cta_text: CTA Optional
     cta_link: /
-  - type: split_title_content_background
+  - type: C15_split_title_content_background
     disable_leftright: true
-    title: "C12: Split Title with Content & Background with disabled left right"
-    leadtext: This is your lead text which is optional This is your lead text which
-      is optional. This is your lead text which is optional. This is your lead
-      text which is optional.
-    content: This is your content which is optional. This is your content which is
-      optional. This is your content which is optional. This is your content
-      which is optional.
-    cta_text: CTA Optional
-    cta_link: /
+    title: "C15: Split Title with Content & Background with disabled columns"
+    leadtext: "**Optional** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis eget dignissim dui. Sed vel facilisis nunc. Quisque blandit vitae
+      nulla a scelerisque."
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
