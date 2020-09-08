@@ -103,6 +103,16 @@ modules:
       scelerisque congue non nulla.
     callout_cta_link: /
     callout_cta_text: Optional Text
+  - type: C06_our_members
+    our_members_title: "C06: Our Members"
+    our_members_description: Description goes here
+    member:
+      - our_member_image: img/andrew-culleton.jpg
+        our_member_link: /
+      - our_member_image: img/annette-kimmitt.jpg
+        our_member_link: /
+      - our_member_image: img/berkely-cox.jpg
+        our_member_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
