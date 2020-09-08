@@ -1,5 +1,5 @@
 <div data-id="C02" class="uk-container C02-rich-text">
     <div>
-        {{ .Module.rich_text_content}}
+        {{ .Module.rich_text_content | markdownify }}
     </div>
 </div>
