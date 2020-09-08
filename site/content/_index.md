@@ -72,6 +72,12 @@ modules:
     content: This is optional content.
     cta_text: LINK OPTIONAL
     cta_link: /
+  - type: split_title_content_background
+    disable_leftright: true
+    title: 'C12: Pillar Content - Card, Image & Description with "Disabled Left
+      Right toggle"'
+    leadtext: Optional lead text lead text lead text lead text lead text lead text
+      lead text lead text lead text lead text lead text lead text.
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
