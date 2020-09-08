@@ -635,11 +635,12 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Youtube ID, name: youtube_quote_id, widget: string, required: false, default: "mgS9BizFeYE" }
               - { label: Quote Text, name: youtube_quote_text, widget: markdown }
               - { label: Quote Author, name: youtube_quote_author, widget: string }
-          - label: "C11: Image"
-            name: "image"
+          - label: "C04: Image"
+            name: "C04_image"
             widget: object
             fields:
               - { label: Image, name: image, widget: image, required: true }
+              - { label: Image Link, name: image_link, widget: string, required: false }
           - label: "C12: Split Title with Content & Background"
             name: "split_title_content_background"
             widget: object
