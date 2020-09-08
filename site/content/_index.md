@@ -131,6 +131,10 @@ modules:
         our_member_link: /
       - our_member_image: img/michael-schneider.jpg
         our_member_link: /
+  - type: C14_youtube_with_quote
+    youtube_quote_id: mgS9BizFeYE
+    youtube_quote_text: "**C14: Youtube with Quote.** This is a sample component."
+    youtube_quote_author: SammyB
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
