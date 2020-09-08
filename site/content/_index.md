@@ -203,6 +203,37 @@ modules:
         exec_board_image: img/felicity-mcdowell.jpg
         exec_board_name: Test Name 9
         exec_board_title: CRO
+    board:
+      - our_board_name: Test Name 1
+        our_board_image: img/andrew-culleton.jpg
+        our_board_title: CEO
+        our_board_quote: This is an optional quote.
+        our_board_description: Optional description
+        our_board_linkedin: https://www.linkedin.com/
+      - our_board_name: Test Name 2
+        our_board_image: img/annette-kimmitt.jpg
+        our_board_title: CFO
+      - our_board_name: Test Name 3
+        our_board_image: img/berkely-cox.jpg
+        our_board_title: CFO
+      - our_board_name: Test Name 4
+        our_board_image: img/brian-long.jpg
+        our_board_title: CMO
+      - our_board_name: Test Name 5
+        our_board_image: img/bruce-cooper.jpg
+        our_board_title: CFO
+      - our_board_name: Test Name 6
+        our_board_image: img/david-brewster.jpg
+        our_board_title: CVO
+      - our_board_image: img/deborah-yates.jpg
+        our_board_name: Test Name 7
+        our_board_title: CTO
+      - our_board_name: Test Name 8
+        our_board_image: img/ellen-derrick.jpg
+        our_board_title: CAO
+      - our_board_name: Test Name 9
+        our_board_image: img/felicity-mcdowell.jpg
+        our_board_title: CPO
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
