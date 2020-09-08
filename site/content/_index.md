@@ -43,7 +43,7 @@ modules:
           laborum.'
     allowMultiple: false
   - type: C01_rich_text
-    rich_text_content: "# Some rich text"
+    rich_text_content: "# Rich Text Heading 1"
   - type: C08_quote
     quote_text: 'C08 Quote: "This is my quote text"'
     quote_author: "Sam Brunno: This is optional."
