@@ -65,6 +65,13 @@ modules:
     stat_number_2: 83
     stat_type_2: "%"
     stat_info_2: People love this more than AEM.
+  - type: split_title_content_background
+    disable_leftright: false
+    title: "C12: Pillar Content - Card, Image & Description"
+    leadtext: This is optional lead text.
+    content: This is optional content.
+    cta_text: LINK OPTIONAL
+    cta_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
