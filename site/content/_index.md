@@ -88,6 +88,21 @@ modules:
     card_description_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
       facilisis ultricies lorem, ut imperdiet nulla semper tristique.
+  - type: C13_callout_image_text_cta
+    callout_image: img/banner-image.jpg
+    callout_title: "C13: Call out with Image, Text & CTA"
+    callout_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Fusce rutrum neque blandit, tempus mauris ut, accumsan tortor. Curabitur
+      interdum dapibus sollicitudin. Praesent at fringilla risus, vel pharetra
+      ligula. Aliquam placerat augue eu luctus iaculis. Nunc pharetra, libero
+      quis viverra viverra, arcu sapien vulputate dui, vel convallis velit purus
+      ac dui. Nulla facilisi. Integer lacinia nulla at augue auctor auctor. Cras
+      et tincidunt lectus. Mauris finibus ex quis lectus viverra luctus. Fusce
+      vel hendrerit elit. Vestibulum ac nisi tortor. Etiam enim augue, porttitor
+      eget vehicula id, aliquet vitae mi. Cras in urna eget odio rhoncus
+      scelerisque congue non nulla.
+    callout_cta_link: /
+    callout_cta_text: Optional Text
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
