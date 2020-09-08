@@ -12,16 +12,16 @@ class Members extends Component {
    *
    */
   constructor() {
-    super("C09");
+    super("C06");
 
     if (super.exists()) {
       window.UIkit.util.on("#toggle-members", "shown", function() {
-        document.getElementsByClassName("C09-our-members__button-shown")[0].classList.add("hidden");
-        document.getElementsByClassName("C09-our-members__button-hidden")[0].classList.remove("hidden");
+        document.getElementsByClassName("C06-our-members__button-shown")[0].classList.add("hidden");
+        document.getElementsByClassName("C06-our-members__button-hidden")[0].classList.remove("hidden");
       });
       window.UIkit.util.on("#toggle-members", "hidden", function() {
-        document.getElementsByClassName("C09-our-members__button-shown")[0].classList.remove("hidden");
-        document.getElementsByClassName("C09-our-members__button-hidden")[0].classList.add("hidden");
+        document.getElementsByClassName("C06-our-members__button-shown")[0].classList.remove("hidden");
+        document.getElementsByClassName("C06-our-members__button-hidden")[0].classList.add("hidden");
       });
     }
   }

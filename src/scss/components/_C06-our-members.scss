@@ -1,7 +1,9 @@
+// NOTES: This has a javascript component "C09-Members
 .C06-our-members {
+  // component controllers
   @include componentSpacingCompile();
-  @include svgLine();
 
+  // custom styling below (white-label applied)
   &__container {
     padding-top: 60px;
 
@@ -20,52 +22,6 @@
 
       img {
         width: 100%;
-      }
-    }
-
-    // TODO: need to make this more dynamic
-    &0,
-    &4,
-    &8,
-    &12,
-    &16,
-    &20,
-    &24 {
-      a {
-        border-top: 4px solid $brand-secondary-red;
-      }
-    }
-    &1,
-    &5,
-    &9,
-    &13,
-    &17,
-    &21,
-    &25 {
-      a {
-        border-top: 4px solid $brand-secondary-raspberry;
-      }
-    }
-    &2,
-    &6,
-    &10,
-    &14,
-    &18,
-    &22,
-    &26 {
-      a {
-        border-top: 4px solid $brand-secondary-teal;
-      }
-    }
-    &3,
-    &7,
-    &11,
-    &15,
-    &19,
-    &23,
-    &27 {
-      a {
-        border-top: 4px solid $brand-secondary-green;
       }
     }
   }

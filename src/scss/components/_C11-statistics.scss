@@ -3,7 +3,7 @@
   // component controllers
   @include componentSpacingCompile($small:true);
 
-  // custom styling below
+  // custom styling below (white-label applied)
   h1 {
     color: $brand-primary;
   }

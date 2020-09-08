@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
   branch: staging
-#media_folder: "site/static/img" # Folder where user uploaded files should go
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: hugofy-isobar
-    api_key: 415865922788966
+media_folder: "site/static/img" # Folder where user uploaded files should go
+#media_library:
+  #name: cloudinary
+  #config:
+    #cloud_name: hugofy-isobar
+    #api_key: 415865922788966
 public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -87,19 +87,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
               - { label: Call Out CTA Link, name: callout_cta_link, widget: string }
               - { label: Call Out CTA Text, name: callout_cta_text, widget: string }
-          - label: "C09: Our Members"
-            name: "our_members"
-            widget: "list"
-            fields:
-              - { label: Title, name: our_members_title, widget: string, default: "Our Members", required: true }
-              - { label: Description, name: our_members_description, widget: markdown, default: "Description goes here" }
-              - label: Member
-                name: member
-                widget: list
-                allow_add: true
-                fields:
-                  - { label: Our Member Image, name: our_member_image, widget: image }
-                  - { label: Our Member Link, name: our_member_link, widget: string }
           - label: "C10: Youtube with Quote"
             name: "youtube_with_quote"
             widget: object
@@ -392,19 +379,6 @@ collections: # A list of collections the CMS should be able to edit
               - { label: Call Out Description, name: callout_description, widget: markdown, required: true }
               - { label: Call Out CTA Link, name: callout_cta_link, widget: string }
               - { label: Call Out CTA Text, name: callout_cta_text, widget: string }
-          - label: "C09: Our Members"
-            name: "our_members"
-            widget: "list"
-            fields:
-              - { label: Title, name: our_members_title, widget: string, default: "Our Members", required: true }
-              - { label: Description, name: our_members_description, widget: markdown, default: "Description goes here" }
-              - label: Member
-                name: member
-                widget: list
-                allow_add: true
-                fields:
-                  - { label: Our Member Image, name: our_member_image, widget: image }
-                  - { label: Our Member Link, name: our_member_link, widget: string }
           - label: "C10: Youtube with Quote"
             name: "youtube_with_quote"
             widget: object
