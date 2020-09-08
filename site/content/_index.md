@@ -65,10 +65,6 @@ modules:
     stat_number_2: 83
     stat_type_2: "%"
     stat_info_2: People love this more than AEM.
-  - type: C11_statistics
-    stat_number_1: 33
-    stat_type_1: M
-    stat_info_1: Testing multiple stats
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
