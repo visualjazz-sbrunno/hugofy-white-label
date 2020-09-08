@@ -71,7 +71,6 @@ modules:
     stat_number_1: 33
     stat_type_1: M
     stat_info_1: Testing multiple stats
-
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
