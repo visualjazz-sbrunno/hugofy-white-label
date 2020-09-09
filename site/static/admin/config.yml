@@ -510,8 +510,8 @@ collections: # A list of collections the CMS should be able to edit
                 allow_add: true
                 fields:
                   - { label: Image, name: gallery_image, widget: image }
-          - label: "C20: PDF Downloads"
-            name: "pdf-downloads"
+          - label: "C18: PDF Downloads"
+            name: "C18_pdf_downloads"
             widget: "list"
             fields:
               - { label: Heading, name: pdf_downloads_heading, widget: string, default: "Download resources" }

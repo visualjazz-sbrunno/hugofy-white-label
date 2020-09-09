@@ -24,25 +24,28 @@
   'components/C01-accordion',
   'components/C02-rich-text',
   'components/C03-youtube',
+  'components/C05-show-hide',
   'components/C06-our-members',
   'components/C08-quote',
   'components/C09-split-title-image-content',
   'components/C10-spotlight-image-content',
   'components/C11-statistics',
   'components/C12-pillar-content-cards',
+  'components/C14-youtube-quote',
+  'components/C15-split-title-content-background',
+  'components/C16-our-board',
+  'components/C18-pdf',
 
 
   // microsoft components
   'jumbotron',
 'src/scss/components/C99-card',
-  'components/C14-youtube-quote',
-  'components/C15-split-title-content-background',
-  'components/C16-our-board',
-  'components/C05-show-hide',
 'src/scss/components/C07-contact-form',
   'components/C19-image-gallery',
-  'components/C20-pdf',
   'components/C21-pagination'
 ;
 
-@import 'resource-listing/';
+// resources scss
+@import
+  'resource-listing'
+;
