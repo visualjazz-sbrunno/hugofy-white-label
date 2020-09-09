@@ -1,0 +1,32 @@
+.C18-pdf {
+  // component controllers
+  @include componentSpacingCompile($paddingTop:false);
+
+  // custom styling below (white-label applied)
+  &__subheading {
+    margin-bottom: 0;
+  }
+
+  .uk-card {
+    margin: 5px 0;
+    p {
+      margin-top: 0;
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    &-body {
+      @media (max-width: $breakpoint-small) {
+        padding: 20px 20px;
+      }
+    }
+  }
+
+  a.uk-link-heading:hover,
+  .uk-link-heading a:hover,
+  .uk-link-toggle:hover .uk-link-heading,
+  .uk-link-toggle:focus .uk-link-heading {
+    color: $brand-primary;
+    text-decoration: $brand-primary;
+  }
+}

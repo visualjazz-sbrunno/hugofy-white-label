@@ -1,0 +1,18 @@
+<div data-id="C18" class="uk-container uk-container-xsmall C18-pdf">
+  <h3>{{ .Module.pdf_downloads_heading }}</h3>
+  <div class="uk-grid-column-small uk-grid-row-small uk-child-width-1-2@s uk-text-left" uk-grid uk-height-match="target: .Module.uk-card">
+    {{ range $index, $element := .Module.pdf_downloads_list }}
+    <div>
+      <a href="{{$element.pdf_downloads_list_file}}" class="uk-card uk-card-white uk-card-box-shadow uk-flex-middle uk-link-toggle" uk-grid>
+        <div class="uk-width-auto">
+          <span class="uk-text-primary" uk-icon="icon: chevron-down; ratio: 2"></span>
+        </div>
+        <div class="uk-card-body uk-width-expand">
+          <h4 class="C20-pdf__subheading uk-link-heading">{{$element.pdf_downloads_list_heading}}</h4>
+          <p>{{$element.pdf_downloads_list_text}}</p>
+        </div>
+      </a>
+    </div>
+    {{end}}
+  </div>
+</div>

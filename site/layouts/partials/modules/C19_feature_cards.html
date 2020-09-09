@@ -1,0 +1,30 @@
+<div data-id="C19" class="uk-section uk-section-muted C19-feature-cards">
+    <div class="uk-container global-padding-tb-small">
+        <div class="uk-text-left uk-text-center@m">
+            <h3>{{ .Module.feat_card_title }}</h3>
+            <p class="uk-text-lead">{{ .Module.feat_card_intro }}</p>
+        </div>
+        {{ $feat_cards_count := len .Module.feat_card }}
+        <div class="uk-grid-match uk-child-width-expand@s global-margin-remove-left@s" uk-grid>
+        {{ range $index, $element := .Module.feat_card }}
+            <div class="uk-padding-small">
+                <div class="uk-card uk-card-white uk-card-box-shadow">
+                    <div class="uk-card-media-top">
+                        {{if $element.feat_card_image}}
+                            <img src="{{ $element.feat_card_image }}" alt="image for {{ $element.feat_card_description }}">
+                        {{else}}
+                            <img src="/img/placeholder-noimage.gif" alt="image for {{ $element.feat_card_description }}" />
+                        {{end}}
+                    </div>
+                    <div class="uk-card-body uk-icon-adjust">
+                        <p>{{ $element.feat_card_description }}</p>
+                        {{if $element.feat_card_link}}
+                        <a href="{{ $element.feat_card_link }}" class="uk-button uk-button-minimal"><span uk-icon="minus"></span> {{ $element.feat_card_cta }}</a>
+                        {{end}}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</div>

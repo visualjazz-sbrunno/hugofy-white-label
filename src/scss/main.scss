@@ -21,29 +21,31 @@
   'header',
   'footer',
   // new components
-  'components/C09-split-title-image-content',
+  'components/C01-accordion',
+  'components/C02-rich-text',
+  'components/C03-youtube',
+  'components/C05-show-hide',
+  'components/C06-our-members',
+  'components/C07-contact-form',
   'components/C08-quote',
-
+  'components/C09-split-title-image-content',
+  'components/C10-spotlight-image-content',
+  'components/C11-statistics',
+  'components/C12-pillar-content-cards',
+  'components/C14-youtube-quote',
+  'components/C15-split-title-content-background',
+  'components/C16-our-board',
+  'components/C17-image-gallery',
+  'components/C18-pdf',
 
 
   // microsoft components
   'jumbotron',
-  'components/C03-split-title-content',
-  'components/C04-spotlight-image-content',
-  'components/C05-statistics',
-  'components/C06-pillar-content-cards',
-  'components/C07-card',
-  'components/C09-our-members',
-  'components/C10-youtube-quote',
-  'components/C12-split-title-content-background',
-  'components/C13-our-board',
-  'components/C14-friends-cmhaa',
-  'components/C16-contact-form',
-  'components/C17-youtube',
-  'components/C18-rich-text',
-  'components/C19-image-gallery',
-  'components/C20-pdf',
+  'src/scss/components/C99-card',
   'components/C21-pagination'
 ;
 
-@import 'resource-listing/';
+// resources scss
+@import
+  'resource-listing'
+;

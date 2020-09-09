@@ -1,0 +1,20 @@
+// NOTES: This has a javascript component "C05-ShowHide
+.C05-show-hide {
+  // component controllers
+  @include componentSpacingCompile();
+  @include unorderList();
+
+  // custom styling below (white-label applied)
+  padding-top: 0;
+  &__button {
+    &-shown,
+    &-hidden {
+      margin: 0 auto;
+      display: block;
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}

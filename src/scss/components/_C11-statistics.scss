@@ -1,0 +1,29 @@
+// NOTES: This has a javascript component "C11-Statistics
+.C11-statistics {
+  // component controllers
+  @include componentSpacingCompile($small:true);
+
+  // custom styling below (white-label applied)
+  h1 {
+    color: $brand-primary;
+  }
+
+  &__number {
+    margin-right: -10px;
+  }
+
+  .uk-card {
+    background: transparent;
+    box-shadow: none;
+
+    @media (max-width: $breakpoint-small) {
+      padding: 0;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+    }
+  }
+}

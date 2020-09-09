@@ -9,3 +9,9 @@
 .uk-padding-remove-bottom {
   padding-bottom: 0;
 }
+
+@media (max-width: $breakpoint-small) {
+  .global-margin-remove-left\@s {
+    margin-left: 0;
+  }
+}
