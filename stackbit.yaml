@@ -1,4 +1,6 @@
 stackbitVersion: ~0.3.0
+ssgName: hugofy
+buildCommand: yarn build  # build command that builds static site
 staticDir: dist  # folder with files that are copied to publishDir as is
 uploadDir: img  # folder with media files, relative to staticDir
 pagesDir: content  # folder with markdown page files
