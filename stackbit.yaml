@@ -30,6 +30,7 @@ models:
       - label: "Modules"
         name: "modules"
         type: "list"
+        types:
           - label: "C01: Accordion"
             name: "C01_accordion"
             type: list
