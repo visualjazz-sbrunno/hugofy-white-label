@@ -1,16 +1,17 @@
 stackbitVersion: ~0.3.0
 ssgName: hugofy
 buildCommand: yarn build  # build command that builds static site
-staticDir: dist  # folder with files that are copied to publishDir as is
-uploadDir: img  # folder with media files, relative to staticDir
+staticDir: site/static  # folder with files that are copied to publishDir as is
+uploadDir: site/static/img  # folder with media files, relative to staticDir
 pagesDir: content  # folder with markdown page files
-dataDir: data      # folder with data files (yaml, json, toml)
+publishDir: dist   # folder with the generated static site files
+dataDir: site      # folder with data files (yaml, json, toml)
 excludePages:
   - README.md
 models:
   # The schema of the theme or a site
   # see Models documentation for more info
-  post: # a model called "post"
+  pages: # a model called "post"
     type: page
     label: Pages
     folder: site/content
