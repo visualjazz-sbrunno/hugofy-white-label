@@ -538,22 +538,6 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Card Description, name: feat_card_description, widget: string, required: true }
                   - { label: Card Link, name: feat_card_link, widget: string, required: false }
                   - { label: Card CTA Text, name: feat_card_cta, widget: string, required: false }
-          - label: "C22: Soundcloud"
-            name: "soundcloud"
-            widget: object
-            fields:
-              - { label: Heading, name: souncloud_heading, widget: string, required: true }
-              - { label: Soundcloud iFrame URL, name: souncloud_url, widget: string, required: true }
-          - label: "C23: Feature Resource"
-            name: "feature_resource"
-            widget: object
-            fields:
-              - { label: Feature Resource, name: resource, widget: relation, collection: "resources", searchFields: ["title"], valueField: ".File.UniqueID", displayFields: ["title"] }
-          - label: "C24: Recommended resources"
-            name: "recommended_resources"
-            widget: object
-            fields:
-              - { label: Heading, name: heading, widget: string, required: false }
 
   - name: "settings"
     label: "Global Settings"
