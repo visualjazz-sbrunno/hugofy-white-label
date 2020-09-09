@@ -265,6 +265,18 @@ modules:
       - our_board_name: Test Name 9
         our_board_image: img/felicity-mcdowell.jpg
         our_board_title: CPO
+  - type: C18_pdf_downloads
+    pdf_downloads_heading: "C18: PDF Downloads"
+    pdf_downloads_list:
+      - pdf_downloads_list_heading: Optional heading
+        pdf_downloads_list_file: img/dummy.pdf
+        pdf_downloads_list_text: Optional text
+      - pdf_downloads_list_heading: Optional Heading
+        pdf_downloads_list_file: img/dummy.pdf
+        pdf_downloads_list_text: Optional text
+      - pdf_downloads_list_heading: Optional Heading
+        pdf_downloads_list_file: img/dummy.pdf
+        pdf_downloads_list_text: Optional text
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
