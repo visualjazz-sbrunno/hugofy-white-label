@@ -283,30 +283,6 @@ modules:
       - pdf_downloads_list_heading: Optional Heading
         pdf_downloads_list_file: img/dummy.pdf
         pdf_downloads_list_text: Optional text
-  - type: C19_feature_cards
-    feat_card_intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    feat_card:
-      - feat_card_image: img/member1.jpg
-        feat_card_description: This is your description
-        feat_card_link: /
-        feat_card_cta: VIEW MORE
-      - feat_card_image: img/member2.jpg
-        feat_card_description: This is your description
-        feat_card_link: /
-        feat_card_cta: VIEW MORE
-      - feat_card_image: img/member3.jpg
-        feat_card_description: This is your description
-        feat_card_cta: VIEW MORE
-        feat_card_link: /
-      - feat_card_image: img/member1.jpg
-        feat_card_description: This is your description
-    feat_card_title: "C19: Feature Cards"
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
