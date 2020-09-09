@@ -500,8 +500,8 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Board Quote, name: our_board_quote, widget: string, required: false }
                   - { label: Board Description, name: our_board_description, widget: markdown, required: false }
                   - { label: Board LinkedIn, name: our_board_linkedin, widget: string, required: false }
-          - label: "C19: Image Gallery"
-            name: "image_gallery"
+          - label: "C17: Image Gallery"
+            name: "C17_image_gallery"
             widget: "list"
             fields:
               - label: Add Gallery Image
