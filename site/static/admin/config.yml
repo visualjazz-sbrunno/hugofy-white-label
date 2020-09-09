@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feat/chad-test
+  branch: staging
 media_folder: "site/static/img" # Folder where user uploaded files should go
 #media_library:
   #name: cloudinary
@@ -8,6 +8,7 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
     #cloud_name: hugofy-isobar
     #api_key: 415865922788966
 public_folder: "img"
+publish_mode: editorial_workflow
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
