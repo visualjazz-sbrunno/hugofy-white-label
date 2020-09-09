@@ -397,6 +397,13 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - { label: Our Member Image, name: our_member_image, widget: image }
                   - { label: Our Member Link, name: our_member_link, widget: string }
+          - label: "C07: Contact form"
+            name: "C07_contact_form"
+            widget: object
+            fields:
+              - { label: Title, name: contact_title, widget: string, required: true }
+              - { label: Lead, name: contact_lead, widget: string, required: false }
+              - { label: Description, name: contact_description, widget: markdown, required: false }
           - label: "C08: Quote"
             name: "C08_quote"
             widget: object
@@ -493,13 +500,6 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Board Quote, name: our_board_quote, widget: string, required: false }
                   - { label: Board Description, name: our_board_description, widget: markdown, required: false }
                   - { label: Board LinkedIn, name: our_board_linkedin, widget: string, required: false }
-          - label: "C16: Contact form"
-            name: "contact-form"
-            widget: object
-            fields:
-              - { label: Title, name: contact_title, widget: string, required: true }
-              - { label: Lead, name: contact_lead, widget: string, required: false }
-              - { label: Description, name: contact_description, widget: markdown, required: false }
           - label: "C19: Image Gallery"
             name: "image_gallery"
             widget: "list"
