@@ -1,5 +1,5 @@
 stackbitVersion: ~0.3.0
-ssgName: hugofy
+ssgName: hugo
 buildCommand: yarn build  # build command that builds static site
 staticDir: site/static  # folder with files that are copied to publishDir as is
 uploadDir: site/static/img  # folder with media files, relative to staticDir
