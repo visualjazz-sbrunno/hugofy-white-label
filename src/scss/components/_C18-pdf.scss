@@ -1,6 +1,8 @@
-.C20-pdf {
+.C18-pdf {
+  // component controllers
   @include componentSpacingCompile($paddingTop:false);
 
+  // custom styling below (white-label applied)
   &__subheading {
     margin-bottom: 0;
   }
@@ -24,7 +26,7 @@
   .uk-link-heading a:hover,
   .uk-link-toggle:hover .uk-link-heading,
   .uk-link-toggle:focus .uk-link-heading {
-    color: $brand-secondary-raspberry;
-    text-decoration: $brand-secondary-raspberry;
+    color: $brand-primary;
+    text-decoration: $brand-primary;
   }
 }
