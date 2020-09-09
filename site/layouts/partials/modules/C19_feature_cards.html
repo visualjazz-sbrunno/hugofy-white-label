@@ -5,7 +5,7 @@
             <p class="uk-text-lead">{{ .Module.feat_card_intro }}</p>
         </div>
         {{ $feat_cards_count := len .Module.feat_card }}
-        <div class="uk-grid-match uk-child-width-expand@s" uk-grid>
+        <div class="uk-grid-match uk-child-width-expand@s global-margin-remove-left@s" uk-grid>
         {{ range $index, $element := .Module.feat_card }}
             <div class="uk-padding-small">
                 <div class="uk-card uk-card-white uk-card-box-shadow">
