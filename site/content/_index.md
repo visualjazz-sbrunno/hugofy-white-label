@@ -277,6 +277,21 @@ modules:
       - pdf_downloads_list_heading: Optional Heading
         pdf_downloads_list_file: img/dummy.pdf
         pdf_downloads_list_text: Optional text
+  - type: C19_feature_cards
+    feat_card_intro: "C19: Feature Cards"
+    feat_card:
+      - feat_card_image: img/member1.jpg
+        feat_card_description: This is your description
+        feat_card_link: /
+        feat_card_cta: VIEW MORE
+      - feat_card_image: img/member2.jpg
+        feat_card_description: This is your description
+        feat_card_link: /
+        feat_card_cta: VIEW MORE
+      - feat_card_image: img/member3.jpg
+        feat_card_description: This is your description
+        feat_card_cta: VIEW MORE
+        feat_card_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
