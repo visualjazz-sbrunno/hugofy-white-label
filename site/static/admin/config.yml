@@ -523,21 +523,21 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: PDF Heading, name: pdf_downloads_list_heading, widget: string, required: false }
                   - { label: PDF File, name: "pdf_downloads_list_file", widget: file, required: true }
                   - { label: PDF Text, name: pdf_downloads_list_text, widget: string, required: false }
-          - label: "C21: Feature Member Stories"
-            name: "feature-member-stories"
+          - label: "C19: Feature Cards"
+            name: "C19_feature_cards"
             widget: "list"
             fields:
-              - { label: Intro, name: feat_member_intro, widget: string, default: "Hear from some of our members and get to know their story.", required: true }
-              - label: Feature Member
-                name: feat_member
+              - { label: Title, name: feat_card_title, widget: string, required: true }
+              - { label: Intro, name: feat_card_intro, widget: markdown, required: false }
+              - label: Feature Cards
+                name: feat_card
                 widget: list
                 allow_add: true
                 fields:
-                  - { label: Feature Member Image, name: feat_member_image, widget: image }
-                  - { label: Feature Member Description, name: feat_member_description, widget: string }
-                  - { label: Feature Member Link, name: feat_member_link, widget: string }
-                  - { label: Feature Member CTA Text, name: feat_member_cta, widget: string }
-              - { label: Read more stories link, name: feat_member_read_more, widget: string }
+                  - { label: Card Image, name: feat_card_image, widget: image, required: true }
+                  - { label: Card Description, name: feat_card_description, widget: string, required: true }
+                  - { label: Card Link, name: feat_card_link, widget: string, required: false }
+                  - { label: Card CTA Text, name: feat_card_cta, widget: string, required: false }
           - label: "C22: Soundcloud"
             name: "soundcloud"
             widget: object
