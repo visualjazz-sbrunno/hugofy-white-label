@@ -4,7 +4,7 @@ footer:
   - footer_text: This is optional footer text
     footer_disclaimer_text: ABN 99 999 999 999 | Copyright © 2020 · Isobar Canberra
     footer_global_link:
-      - footer_global_link_country: Optional Text
+      - footer_global_link_text: Optional Text
         footer_global_link_url: https://www.isobar.com/au/
         footer_global_link_url_text: www.isobar.com/au/
     footer_social_link:
