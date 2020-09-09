@@ -14,6 +14,8 @@ models:
   pages: # a model called "post"
     type: page
     label: Pages
+    match: '*.md'
+    exclude: _index.md
     folder: site/content
     urlPath: "/{slug}"
     fields:
