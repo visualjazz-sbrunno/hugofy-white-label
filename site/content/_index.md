@@ -307,6 +307,25 @@ modules:
       - feat_card_image: img/member1.jpg
         feat_card_description: This is your description
     feat_card_title: "C19: Feature Cards"
+  - type: C20_filter
+    filter_title: "C20: Filter"
+    filter_intro: This is an optional intro description.
+    filter_card:
+      - filter_card_category: blue
+        filter_card_image: img/banner-image.jpg
+        filter_card_description: This is your description
+        filter_card_link: /
+        filter_card_cta: VIEW MORE
+      - filter_card_category: green
+        filter_card_image: img/bannerrightimage.jpg
+        filter_card_description: This is your description
+        filter_card_cta: VIEW MORE
+        filter_card_link: /
+      - filter_card_category: purple
+        filter_card_image: img/galleryimagetest1.jpg
+        filter_card_description: This is your description
+        filter_card_cta: VIEW MORE
+        filter_card_link: /
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
