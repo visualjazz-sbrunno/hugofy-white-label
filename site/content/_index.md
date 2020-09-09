@@ -265,6 +265,12 @@ modules:
       - our_board_name: Test Name 9
         our_board_image: img/felicity-mcdowell.jpg
         our_board_title: CPO
+  - type: C17_image_gallery
+    gallery:
+      - gallery_image: img/andrew-culleton.jpg
+      - gallery_image: img/about-us.jpg
+      - gallery_image: img/berkely-cox.jpg
+      - gallery_image: img/dlapiper.jpg
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: FIND OUT HOW
