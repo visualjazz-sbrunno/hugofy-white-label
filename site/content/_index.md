@@ -92,7 +92,7 @@ modules:
   - type: C03_youtube
     youtube: rwSGQmY31EQ
   - type: C04_image
-    image: img/banner-image.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     image_link: /
   - type: C05_show_hide
     showhide_title: "C05: Show & Hide"
