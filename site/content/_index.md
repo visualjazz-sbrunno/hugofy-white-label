@@ -236,40 +236,40 @@ modules:
     our_board_exec_description: Description goes here
     board:
       - our_board_name: Test Name 1
-        our_board_image: img/andrew-culleton.jpg
+        our_board_image: img/tim_1.jpg
         our_board_title: CEO
         our_board_quote: This is an optional quote.
         our_board_description: Optional description
         our_board_linkedin: https://www.linkedin.com/
       - our_board_name: Test Name 2
-        our_board_image: img/annette-kimmitt.jpg
+        our_board_image: img/isobar_54.jpg
         our_board_title: CFO
       - our_board_name: Test Name 3
-        our_board_image: img/berkely-cox.jpg
+        our_board_image: img/isobar-sydney-65.jpg
         our_board_title: CFO
       - our_board_name: Test Name 4
-        our_board_image: img/brian-long.jpg
+        our_board_image: img/img_2445.jpg
         our_board_title: CMO
       - our_board_name: Test Name 5
-        our_board_image: img/bruce-cooper.jpg
+        our_board_image: img/highres-isobar-0835-1.jpg
         our_board_title: CFO
       - our_board_name: Test Name 6
-        our_board_image: img/david-brewster.jpg
+        our_board_image: img/highres-isobar-0825-1.jpg
         our_board_title: CVO
-      - our_board_image: img/deborah-yates.jpg
+      - our_board_image: img/clancy_headshot4.png
         our_board_name: Test Name 7
         our_board_title: CTO
       - our_board_name: Test Name 8
-        our_board_image: img/ellen-derrick.jpg
+        our_board_image: img/_f9a0332-2.jpg
         our_board_title: CAO
       - our_board_name: Test Name 9
-        our_board_image: img/felicity-mcdowell.jpg
+        our_board_image: img/_f9a0258-2.jpg
         our_board_title: CPO
   - type: C17_image_gallery
     gallery:
-      - gallery_image: img/andrew-culleton.jpg
+      - gallery_image: img/_f9a0241-2.jpg
       - gallery_image: img/about-us.jpg
-      - gallery_image: img/berkely-cox.jpg
+      - gallery_image: img/isobar_54.jpg
       - gallery_image: img/dlapiper.jpg
   - type: C18_pdf_downloads
     pdf_downloads_heading: "C18: PDF Downloads"
