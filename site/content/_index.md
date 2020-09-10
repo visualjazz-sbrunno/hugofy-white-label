@@ -2,8 +2,8 @@
 title: Homepage
 meta_keywords: Home, Hugofy, Rhys.
 meta_description: This is a detailed description of the page.
-banner_title: Together in the business of improving workplace mental health
-banner_image: img/banner-image.jpg
+banner_title: This is an example of Banner Title. Place banner Title text here
+banner_image: img/enlighten-illuminations-fireworks-960x640.jpg
 modules:
   - type: C01_accordion
     dropdowns:
@@ -92,7 +92,7 @@ modules:
   - type: C03_youtube
     youtube: rwSGQmY31EQ
   - type: C04_image
-    image: img/banner-image.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     image_link: /
   - type: C05_show_hide
     showhide_title: "C05: Show & Hide"
@@ -143,7 +143,7 @@ modules:
     quote_author: "Sam Brunno: This is optional."
   - type: C09_split_title_image_content
     title: "C09: Split title image with Content"
-    image: img/guiding-principles.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     leadtext: This is my lead text here.
     content: This is my content this is my content this is my content this is my
       content this is my content this is my content this is my content this is
@@ -151,7 +151,7 @@ modules:
       is my content this is my content this is my content this is my content
       this is my content this is my content.
   - type: C10_spotlight_image_content
-    image: img/banner-image.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     title1: "C10: Spotlight with Image & Content"
     content1: This is your content.
     title2: Title 2 is optional
@@ -187,7 +187,7 @@ modules:
       Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
       facilisis ultricies lorem, ut imperdiet nulla semper tristique.
   - type: C13_callout_image_text_cta
-    callout_image: img/banner-image.jpg
+    callout_image: img/enlighten-illuminations-fireworks-960x640.jpg
     callout_title: "C13: Call out with Image, Text & CTA"
     callout_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Fusce rutrum neque blandit, tempus mauris ut, accumsan tortor. Curabitur
@@ -236,40 +236,40 @@ modules:
     our_board_exec_description: Description goes here
     board:
       - our_board_name: Test Name 1
-        our_board_image: img/andrew-culleton.jpg
+        our_board_image: img/tim_1.jpg
         our_board_title: CEO
         our_board_quote: This is an optional quote.
         our_board_description: Optional description
         our_board_linkedin: https://www.linkedin.com/
       - our_board_name: Test Name 2
-        our_board_image: img/annette-kimmitt.jpg
+        our_board_image: img/isobar_54.jpg
         our_board_title: CFO
       - our_board_name: Test Name 3
-        our_board_image: img/berkely-cox.jpg
+        our_board_image: img/isobar-sydney-65.jpg
         our_board_title: CFO
       - our_board_name: Test Name 4
-        our_board_image: img/brian-long.jpg
+        our_board_image: img/img_2445.jpg
         our_board_title: CMO
       - our_board_name: Test Name 5
-        our_board_image: img/bruce-cooper.jpg
+        our_board_image: img/highres-isobar-0835-1.jpg
         our_board_title: CFO
       - our_board_name: Test Name 6
-        our_board_image: img/david-brewster.jpg
+        our_board_image: img/highres-isobar-0825-1.jpg
         our_board_title: CVO
-      - our_board_image: img/deborah-yates.jpg
+      - our_board_image: img/clancy_headshot4.png
         our_board_name: Test Name 7
         our_board_title: CTO
       - our_board_name: Test Name 8
-        our_board_image: img/ellen-derrick.jpg
+        our_board_image: img/_f9a0332-2.jpg
         our_board_title: CAO
       - our_board_name: Test Name 9
-        our_board_image: img/felicity-mcdowell.jpg
+        our_board_image: img/_f9a0258-2.jpg
         our_board_title: CPO
   - type: C17_image_gallery
     gallery:
-      - gallery_image: img/andrew-culleton.jpg
+      - gallery_image: img/_f9a0241-2.jpg
       - gallery_image: img/about-us.jpg
-      - gallery_image: img/berkely-cox.jpg
+      - gallery_image: img/isobar_54.jpg
       - gallery_image: img/dlapiper.jpg
   - type: C18_pdf_downloads
     pdf_downloads_heading: "C18: PDF Downloads"
@@ -328,5 +328,5 @@ modules:
         filter_card_link: /
 slug: homepage
 banner_cta_link: /about-us
-banner_cta_text: FIND OUT HOW
+banner_cta_text: CTA TEXT (Optional)
 ---
