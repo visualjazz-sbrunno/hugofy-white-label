@@ -1,6 +1,6 @@
 ---
 title: Homepage
-meta_keywords: Home, Hugofy.
+meta_keywords: Home, Hugofy, Rhys.
 meta_description: This is a detailed description of the page.
 banner_title: Together in the business of improving workplace mental health
 banner_image: img/banner-image.jpg
