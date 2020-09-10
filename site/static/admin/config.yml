@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feat/chad-test
+  branch: staging
 media_folder: "site/static/img" # Folder where user uploaded files should go
 #media_library:
   #name: cloudinary
@@ -538,6 +538,22 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Card Description, name: feat_card_description, widget: string, required: true }
                   - { label: Card Link, name: feat_card_link, widget: string, required: false }
                   - { label: Card CTA Text, name: feat_card_cta, widget: string, required: false }
+          - label: "C20: Filter"
+            name: "C20_filter"
+            widget: "list"
+            fields:
+              - { label: Title, name: filter_title, widget: string, required: true }
+              - { label: Intro, name: filter_intro, widget: markdown, required: false }
+              - label: Filter Cards
+                name: filter_card
+                widget: list
+                allow_add: true
+                fields:
+                  - { label: Card Category, name: filter_card_category, widget: select, required: true, options: ["blue", "green", "purple"] }
+                  - { label: Card Image, name: filter_card_image, widget: image, required: true }
+                  - { label: Card Description, name: filter_card_description, widget: string, required: true }
+                  - { label: Card Link, name: filter_card_link, widget: string, required: false }
+                  - { label: Card CTA Text, name: filter_card_cta, widget: string, required: false }
 
   - name: "settings"
     label: "Global Settings"
@@ -552,13 +568,13 @@ collections: # A list of collections the CMS should be able to edit
         widget: "list"
         allow_add: false
         fields:
-          - { label: Intro, name: footer_text, widget: string, default: "CMHAA is a part of the CMHA Global network.", required: true }
+          - { label: Intro, name: footer_text, widget: string, required: false }
           - label: Footer GLobal Links
             name: footer_global_link
             widget: list
             allow_add: true
             fields:
-              - {label: Footer Link Country, name: footer_global_link_country, widget: string}
+              - {label: Footer Link Text, name: footer_global_link_text, widget: string}
               - {label: Footer Link URL, name: footer_global_link_url, widget: string}
               - {label: Footer Link URL Text, name: footer_global_link_url_text, widget: string}
           - label: Footer Social Links
@@ -575,8 +591,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Footer Privacy URL, name: footer_pirvacy_link_url, widget: string, default: "/privacy-policy"}
               - {label: Footer Privacy Text, name: footer_pirvacy_link_text, widget: string, default: "Privacy policy"}
-          - { label: Footer Disclaimer Text, name: footer_disclaimer_text, widget: string, default: "ABN 28 638 927 125 | Copyright © 2020 · Corporate Mental Health Alliance Australia", required: true }
-          - { label: Google Analytics ID, name: footer_ga, widget: string, default: "UA-175325361-1", required: true }
+          - { label: Footer Disclaimer Text, name: footer_disclaimer_text, widget: string, default: "ABN 99 999 999 999 | Copyright © 2020 · Isobar Canberra", required: true }
+          - { label: Google Analytics ID, name: footer_ga, widget: string, default: "UA-9999999-1", required: true }
       - label: "SEO Settings"
         name: "seo"
         widget: "list"
