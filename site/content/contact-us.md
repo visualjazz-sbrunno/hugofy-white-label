@@ -9,6 +9,4 @@ modules:
     contact_title: C07 Form Title
     contact_lead: C07 Form lead (optional)
     contact_description: C07 Form Description (Optional)
-  - type: recommended_resources
-    heading: ""
 ---
