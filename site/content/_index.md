@@ -328,5 +328,5 @@ modules:
         filter_card_link: /
 slug: homepage
 banner_cta_link: /about-us
-banner_cta_text: FIND OUT HOW
+banner_cta_text: CTA TEXT (Optional)
 ---
