@@ -2,7 +2,7 @@
 title: Homepage
 meta_keywords: Home, Hugofy.
 meta_description: This is a detailed description of the page.
-banner_title: Together in the business of improving workplace mental health
+banner_title: This is an example of Banner Title. Place banner Title text here
 banner_image: img/enlighten-illuminations-fireworks-960x640.jpg
 modules:
   - type: C01_accordion
