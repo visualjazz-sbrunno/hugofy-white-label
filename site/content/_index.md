@@ -143,7 +143,7 @@ modules:
     quote_author: "Sam Brunno: This is optional."
   - type: C09_split_title_image_content
     title: "C09: Split title image with Content"
-    image: img/guiding-principles.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     leadtext: This is my lead text here.
     content: This is my content this is my content this is my content this is my
       content this is my content this is my content this is my content this is
@@ -151,7 +151,7 @@ modules:
       is my content this is my content this is my content this is my content
       this is my content this is my content.
   - type: C10_spotlight_image_content
-    image: img/banner-image.jpg
+    image: img/enlighten-illuminations-fireworks-960x640.jpg
     title1: "C10: Spotlight with Image & Content"
     content1: This is your content.
     title2: Title 2 is optional
@@ -187,7 +187,7 @@ modules:
       Curabitur sit amet felis varius, imperdiet sem et, congue nisi. Aenean
       facilisis ultricies lorem, ut imperdiet nulla semper tristique.
   - type: C13_callout_image_text_cta
-    callout_image: img/banner-image.jpg
+    callout_image: img/enlighten-illuminations-fireworks-960x640.jpg
     callout_title: "C13: Call out with Image, Text & CTA"
     callout_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Fusce rutrum neque blandit, tempus mauris ut, accumsan tortor. Curabitur
