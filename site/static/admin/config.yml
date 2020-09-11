@@ -554,6 +554,21 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Card Description, name: filter_card_description, widget: string, required: true }
                   - { label: Card Link, name: filter_card_link, widget: string, required: false }
                   - { label: Card CTA Text, name: filter_card_cta, widget: string, required: false }
+          - label: "C21: Off Canvas Info"
+            name: "C21_off_canvas_info"
+            widget: "object"
+            fields:
+              - { label: Title, name: off_canvas_section_title, widget: string, required: true }
+              - { label: Content, name: off_canvas_section_content, widget: markdown, required: true }
+              - { label: Button Text, name: off_canvas_button_text, widget: string, required: true }
+              - { label: Flip to Right, name: off_canvas_flip, widget: boolean, default: false}
+              - label: Off Canvas Content
+                name: off_canvas_content
+                widget: object
+                allow_add: false
+                fields:
+                  - { label: Off Canvas ID, name: off_canvas_id, widget: string, required: true }
+                  - { label: Off Canvas Content, name: off_canvas_content, widget: markdown, required: true }
 
   - name: "settings"
     label: "Global Settings"
