@@ -8,11 +8,11 @@
 
     <div></div>
 
-        <div id="{{ .Module.off_canvas_content.off_canvas_id }}" uk-offcanvas>
+        <div id="{{ .Module.off_canvas_content.off_canvas_id }}" uk-offcanvas="flip: {{ .Module.off_canvas_flip}}">
             <div class="uk-offcanvas-bar">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <div class="uk-text-left">
-                    {{ .Module.off_canvas_content.off_canvas_bar_content}}
+                    {{ .Module.off_canvas_content.off_canvas_bar_content | markdownify}}
                 </div>
             </div>
         </div>
