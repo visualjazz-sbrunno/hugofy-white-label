@@ -355,6 +355,7 @@ modules:
       off_canvas_bar_title: "C21: Off Canvas Bar Title"
   - type: C22_countdown
     countdown_date: 2021-06-30T08:00:18.081Z
+    countdown_text: "C22: COUNTDOWN - SOMETHING BIG IS COMING"
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: CTA TEXT (Optional)
