@@ -574,7 +574,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "C22_countdown"
             widget: "object"
             fields:
-              - { label: Countdown Text, name: countdown_text, widget: markdown, required: false}
+              - { label: Countdown Text, name: countdown_text, widget: string, required: false}
               - { label: Countdown Expiry Date, name: countdown_date, widget: datetime, required: true }
 
   - name: "settings"
