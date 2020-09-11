@@ -1,11 +1,16 @@
 .C21-off-canvas-info {
   @include componentSpacingCompile();
+  padding-top: $global-padding-mobile;
 
   & .uk-offcanvas-bar{
     background-color: $grey-lightest;
   }
 
-  & uk.uk-offcanvas-close{
+  & .uk-offcanvas-close{
+    color: $brand-primary-darker;
+  }
+
+  & h2{
     color: $brand-primary;
   }
 }
