@@ -572,8 +572,9 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: Off Canvas Content, name: off_canvas_bar_content, widget: markdown, required: true }
           - label: "C22: Countdown"
             name: "C22_countdown"
-            widget: "datetime"
+            widget: "object"
             fields:
+              - { label: Countdown Text, name: countdown_text, widget: markdown, required: false}
               - { label: Countdown Expiry Date, name: countdown_date, widget: datetime, required: true }
 
   - name: "settings"
