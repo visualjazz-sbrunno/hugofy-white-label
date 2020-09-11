@@ -327,7 +327,7 @@ modules:
         filter_card_cta: VIEW MORE
         filter_card_link: /
   - type: C21_off_canvas_info
-    off_canvas_flip: true
+    off_canvas_flip: false
     off_canvas_section_title: "C21: Off Canvas Information Section"
     off_canvas_section_content: "C21: Some lead text before a button goes here. this
       should be a short piece of information that leaves you wanting...."
