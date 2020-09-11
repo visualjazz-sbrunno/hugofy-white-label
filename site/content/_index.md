@@ -326,6 +326,28 @@ modules:
         filter_card_description: This is your description
         filter_card_cta: VIEW MORE
         filter_card_link: /
+  - type: C21_off_canvas_info
+    off_canvas_flip: false
+    off_canvas_section_title: "C21: Off Canvas Information Section"
+    off_canvas_section_content: "C21: Some lead text before a button goes here. this
+      should be a short piece of information that leaves you wanting...."
+    off_canvas_button_text: "C21: Button - More Info"
+    off_canvas_content:
+      off_canvas_id: C21-off-canvas-id-1
+      off_canvas_content: >-
+        C21: Off Canvas content section. this can be used to divulge a much
+        larger piece of information. 
+
+
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+
+
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: CTA TEXT (Optional)
