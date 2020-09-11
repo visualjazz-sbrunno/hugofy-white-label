@@ -353,6 +353,8 @@ modules:
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       off_canvas_bar_title: "C21: Off Canvas Bar Title"
+  - type: C22_countdown
+    countdown_date: 2021-06-30T08:00:18.081Z
 slug: homepage
 banner_cta_link: /about-us
 banner_cta_text: CTA TEXT (Optional)
