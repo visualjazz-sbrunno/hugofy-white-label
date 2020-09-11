@@ -1,10 +1,10 @@
 <div data-id="C22" class="uk-section uk-section-muted C22-countdown">
     <div class="uk-container ">
-        <h1 class="uk-align-center">
+        <h1 class="uk-text-center uk-text-center@m uk-text-large">
             {{ .Module.countdown_text }}
         </h1>
 
-        <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: {{.Module.countdown_date}}">
+        <div class="uk-grid-small uk-flex-center uk-child-width-auto uk-margin-auto" uk-grid uk-countdown="date: {{.Module.countdown_date}}">
             <div>
                 <div class="uk-countdown-number uk-countdown-days"></div>
                 <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>

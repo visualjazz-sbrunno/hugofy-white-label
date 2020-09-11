@@ -6,4 +6,18 @@
     color: $brand-primary;
     font-size: 5em;
   }
+
+  & .uk-countdown-label{
+    color: $brand-primary;
+  }
+
+  & .uk-countdown-separator{
+    color: $brand-primary
+  }
+
+  @media (max-width: $breakpoint-small) {
+    & h1{
+      font-size: 3em;
+    }
+  }
 }
