@@ -1,7 +1,7 @@
 <div data-id="C22" class="uk-container uk-section C22-countdown">
-    <div class="uk-container-small uk-align-center">
-        {{ .Module.countdown_text | markdownify}}
-    </div>
+    <h1 class="uk-align-center">
+        {{ .Module.countdown_text }}
+    </h1>
 
     <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: {{.Module.countdown_date}}">
         <div>

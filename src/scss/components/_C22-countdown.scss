@@ -1,4 +1,5 @@
 .C22-countdown {
   @include componentSpacingCompile($small:false);
   padding-top: 0;
+  background-color: $grey-lightest;
 }
