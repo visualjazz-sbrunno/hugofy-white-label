@@ -4,4 +4,8 @@
   & .uk-offcanvas-bar{
     background-color: $grey-lightest;
   }
+
+  & uk.uk-offcanvas-close{
+    color: $brand-primary;
+  }
 }

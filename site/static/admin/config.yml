@@ -568,6 +568,7 @@ collections: # A list of collections the CMS should be able to edit
                 allow_add: false
                 fields:
                   - { label: Off Canvas ID, name: off_canvas_id, widget: string, required: true }
+                  - { lable: Off Canvas Title, name: off_canvas_bar_title, widget: string, reuired: false}
                   - { label: Off Canvas Content, name: off_canvas_bar_content, widget: markdown, required: true }
 
   - name: "settings"
