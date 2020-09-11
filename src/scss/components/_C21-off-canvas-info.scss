@@ -1,3 +1,7 @@
 .C21-off-canvas-info {
+  @include componentSpacingCompile();
 
+  & .uk-offcanvas-bar{
+    background-color: $grey-lightest;
+  }
 }
